@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ciberseguridad/Ciberseguridad/Redes clase A, B, C y máscara de red..md",
+                "file": "Ciberseguridad/Conceptos Básicos de Hacking/Netcat para entablar Reverse Shell.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Redes clase A, B, C y máscara de red."
+              "title": "Netcat para entablar Reverse Shell"
             }
           },
           {
@@ -191,6 +191,10 @@
   },
   "active": "48b517a409b5f4cf",
   "lastOpenFiles": [
+    "Ciberseguridad/Conceptos Básicos de Hacking/Compartir Archivos por la red en máquinas windows (certutil).md",
+    "Ciberseguridad/Conceptos Básicos de Hacking/Netcat para entablar Reverse Shell.md",
+    "Ciberseguridad/Conceptos Básicos de Hacking/Compartir archivos con servidor HTTP con Python + Reverse shell.md",
+    "Ciberseguridad/Ciberseguridad/Redes clase A, B, C y máscara de red..md",
     "Ciberseguridad/Ciberseguridad/Diferencias entre Nat, Adaptador puente y Red Nat.md",
     "Ciberseguridad/Herramientas/Netexec.md",
     "Ciberseguridad/Pivoting con metasploit/Que es el PIVOTING.md",
@@ -213,10 +217,6 @@
     "Ciberseguridad/Herramientas/FFUF.md",
     "Ciberseguridad/Herramientas/EVIL_WINRM (CONECTARSE DE FORMA REMOTA A UN WINDOWS).md",
     "Ciberseguridad/Herramientas/Ataque de sincronización..md",
-    "Ciberseguridad/Conceptos Básicos de Hacking/Reconocimiento de red con ARP-SCAN, NETDISCOVER y NMAP.md",
-    "Ciberseguridad/Conceptos Básicos de Hacking/NMAP.md",
-    "Ciberseguridad/Conceptos Básicos de Hacking/Netcat para entablar Reverse Shell.md",
-    "Ciberseguridad/Conceptos Básicos de Hacking/Compartir Archivos por la red en máquinas windows (certutil).md",
     "Ciberseguridad/Imagenes/Pasted image 20250317175955.png",
     "Ciberseguridad/Imagenes/Pasted image 20250322165238.png",
     "Ciberseguridad/Imagenes/Pasted image 20250322164618.png",

@@ -6,7 +6,6 @@ Clase B:
 	- Se ven 2 host (0.0) por ende entran mas equipos.
 Clase C: 
 - IP Domestica : 192.168.1.30 - 255.255.255.0 = /24
--![[Pasted image 20241211182735.png]]
 ![](../Imagenes/Pasted%20image%2020241211182735.png)
 - Cualquier endpoint que este dentro de mi red, solo cambiara el host.
 - 254 Equipos.

