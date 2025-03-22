@@ -20,5 +20,6 @@ nc -nlvp 443
 ![](../Imagenes/Pasted%20image%2020241211184342.png)
 
 - Ahora, en la maquina victima vamos a ocupar el Reverse Shell que nos entrego la pagina.
-![[Pasted image 20241211184536.png]]
+
+![](../Imagenes/Pasted%20image%2020241211184536.png)
 - Ya estamos dentro.
