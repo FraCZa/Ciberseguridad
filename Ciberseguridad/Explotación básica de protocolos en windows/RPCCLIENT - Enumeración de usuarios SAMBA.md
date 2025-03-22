@@ -32,8 +32,9 @@ querydispinfo
 ```
 enumdomusers
 ```
-![[Pasted image 20241221165541.png]]
+
 ![](../Imagenes/Pasted%20image%2020241221165541.png)
+
 - También es un comando que nos muestra usuarios, por si el comando anterior no nos arroja uno.
 - Y si aun no nos arroja uno usamos el siguiente comando con ==nmap==.
 ```
@@ -45,7 +46,9 @@ nmap -p 445 --script=smb-enum-shares.nse,smb-enum-users.nse (IP_VICTIMA)
 nmap -p 111 --script=nfs-ls,nfs-statfs,nfs-showmount (IP_VICTIMA)
 ```
 
-![[Pasted image 20250210184010.png]]
+
+![](../Imagenes/Pasted%20image%2020250210184010.png)
+
 - sabemos lo que tiene en la carpeta /van
 - Ahora queremos copiar esa carpeta
 	- Para copiarlo tenemos que meternos por el puerto 21 donde corre una version ProFTPD 1.3.5. Si investigamos nos saldra que tiene un exploit para copiar archivos.
@@ -53,12 +56,18 @@ nmap -p 111 --script=nfs-ls,nfs-statfs,nfs-showmount (IP_VICTIMA)
 ```
 nc (IP_VICTIMA) 21
 ```
-![[Pasted image 20250210184352.png]]
+
+![](../Imagenes/Pasted%20image%2020250210184352.png)
+
 - ==220== nos avisara que la conexión ya esta lista.
-- Ahora usamos los siguietenes comandos:
-![[Pasted image 20250210184530.png]]
+- Ahora usamos los siguientes comandos:
+
+![](../Imagenes/Pasted%20image%2020250210184530.png)
+
 - ==SITE CPFR== --> (COPY FROM) Selecciona el archivo o directorio que se desea copiar.
-![[Pasted image 20250210184538.png]]
+
+![](../Imagenes/Pasted%20image%2020250210184538.png)
+
 - ==SITE CPTO== --> (COPIAR A) Especifica la ruta de destino donde se copiará el archivo o directorio.
 - Todo esto lo sacamos de un .txt de la maquina.
 - Ahora que ya lo copiamos, debemos montar el directorio /var/tmp a nuestra máquina usando el siguiente comando:
@@ -81,22 +90,29 @@ ls -la /mnt/kenobiNFS
 ```
 use scanner/smb/smb_login
 ```
-![[Pasted image 20241221165830.png]]
+
+![](../Imagenes/Pasted%20image%2020241221165830.png)
+
 - Usamos show options y rellenamos todos los espacios necesarios.
 - Ejecutamos.
-![[Pasted image 20241221170916.png]]
+
+![](../Imagenes/Pasted%20image%2020241221170916.png)
+
 - Ya tenemos la contraseña.
 - Ahora que tenemos la credenciales, vamos ir enumerando recursos compartidos con ==smbmap== con el siguiente comando:
 ```
 smbmap -u '(USUARIO)' -p (PASSWORD) -H (IP_VICTIMA)
 ```
-![[Pasted image 20241221172027.png]]
+
+![](../Imagenes/Pasted%20image%2020241221172027.png)
+
 - Como podemos ver tenemos acceso a ==ken==.
 - Entonces agregamos al comando:
 ```
 smbmap -u '(USUARIO)' -p (PASSWORD) -H (IP_VICTIMA) -r (RECURSO_COMPARTIDO)
 ```
-![[Pasted image 20241221172213.png]]
+
+![](../Imagenes/Pasted%20image%2020241221172213.png)
+
 - Y así vamos entrando y revisando información delicada.
 
-deb http://http.kali.org/kali kali-rolling main contrib non-free non-free-firmware

@@ -10,7 +10,9 @@
 nmap -sU --top-ports 200 --min-rate 5000 -n -Pn (IP_VICTIMA) 
 ```
 
-![[Pasted image 20250104175645.png]]
+
+![](../Imagenes/Pasted%20image%2020250104175645.png)
+
 - Podemos ver que tenemos uno con servicio snmp.
 - Vamos a utilizar 2 herramientas para enumerar este protocolo:
 
@@ -22,7 +24,9 @@ nmap -sU --top-ports 200 --min-rate 5000 -n -Pn (IP_VICTIMA)
 onesixtyone -c /usr/share/wordlists/rockyou.txt (IP_VICTIMA)
 ```
 
-![[Pasted image 20250104181103.png]]
+
+![](../Imagenes/Pasted%20image%2020250104181103.png)
+
 - Como podemos ver, nos da la clave de comunidad ==security==
 - Ahora vamos a utilizar la herramienta snmpwalk.
 
