@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "20250317174502",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -189,17 +189,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "792cd74187e25d77",
+  "active": "48b517a409b5f4cf",
   "lastOpenFiles": [
-    "Pasted.md",
-    "Ciberseguridad/Maquinas/Maquina - Jerry/Maquina - Jerry (Pivoting).md",
     "Ciberseguridad/Maquinas/Maquina - Jerry/Pasted image 20250322163216.png",
+    "Ciberseguridad/Maquinas/Maquina - Jerry/Maquina - Jerry (Pivoting).md",
+    "Ciberseguridad/Imagenes/Pasted image 20250322164618.png",
+    "Ciberseguridad/Imagenes/Pasted image 20250317174502.png",
+    "Pasted.md",
     "Ciberseguridad/Maquinas/Maquina - Jerry",
     "Pasted image 20250322162551.png",
     "Pasted image 20250322162953.png",
     "peo.md",
     "Ciberseguridad/Imagenes/Pasted image 20250322162838.png",
-    "Ciberseguridad/Imagenes/Pasted image 20250317174502.png",
     "Ciberseguridad/Maquinas/Maquina - Mirame..md",
     "Ciberseguridad/Maquinas 1/Maquina - Mirame..md",
     "Ciberseguridad/Maquinas 1/Maquina - Pequeñas mentirosas..md",
@@ -222,7 +223,6 @@
     "Ciberseguridad/Resumen/Fuzzing y Descubrimiento de Directorios..md",
     "Ciberseguridad/Resumen/Herramientas Adicionales..md",
     "Ciberseguridad/Resumen/Fuerza Bruta y Ataques de Autenticación..md",
-    "Ciberseguridad/Resumen/Explotación y Post-Explotación..md",
     "Ciberseguridad/Resumen",
     "Ciberseguridad/Pivoting con metasploit",
     "Ciberseguridad/Paginas",
@@ -233,7 +233,6 @@
     "Ciberseguridad/Imagenes/Pasted image 20241211182254.png",
     "Ciberseguridad/Maquinas 1",
     "Ciberseguridad/Imagenes/Pasted image 20250317183916.png",
-    "Ciberseguridad/Imagenes/Pasted image 20250317183812.png",
     "Ciberseguridad/Imagenes",
     "Ciberseguridad/Explotación de vulnerabilidades y ataques de fuerza bruta",
     "Ciberseguridad/Imagen"
