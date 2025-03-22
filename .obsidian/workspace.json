@@ -204,47 +204,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "floating": {
-    "id": "8bbf9738b1c07692",
-    "type": "floating",
-    "children": [
-      {
-        "id": "d6a768225f4c0b56",
-        "type": "window",
-        "children": [
-          {
-            "id": "f4bddeec86439a9d",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "13f3cf6ed26b1bf5",
-                "type": "leaf",
-                "state": {
-                  "type": "image",
-                  "state": {
-                    "file": "Ciberseguridad/Imagenes/Pasted image 20250317175955.png"
-                  },
-                  "icon": "lucide-image",
-                  "title": "Pasted image 20250317175955"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 256,
-        "y": 56,
-        "width": 1024,
-        "height": 800,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
   "active": "aa32b970892ff8a4",
   "lastOpenFiles": [
-    "Ciberseguridad/Imagenes/Pasted image 20250317175955.png",
+    "Ciberseguridad/Maquinas/Maquina - Mirame..md",
+    "Ciberseguridad/Maquinas/hash-identifier, hashcat - Para crackear los hash. (Cyborg).md",
     "Ciberseguridad/Maquinas/Maquina - Jerry/Maquina - Jerry (Pivoting).md",
+    "Ciberseguridad/Imagenes/Pasted image 20250317175955.png",
     "Ciberseguridad/Imagenes/Pasted image 20250322165238.png",
     "Ciberseguridad/Imagenes/Pasted image 20250322164618.png",
     "Ciberseguridad/Imagenes/Pasted image 20250322165042.png",
@@ -257,7 +222,6 @@
     "Pasted image 20250322162953.png",
     "peo.md",
     "Ciberseguridad/Imagenes/Pasted image 20250322162838.png",
-    "Ciberseguridad/Maquinas/Maquina - Mirame..md",
     "Ciberseguridad/Maquinas 1/Maquina - Mirame..md",
     "Ciberseguridad/Maquinas 1/Maquina - Pequeñas mentirosas..md",
     "Ciberseguridad/Maquinas 1/Maquina - Jerry (Pivoting).md",
@@ -284,7 +248,6 @@
     "Ciberseguridad/Paginas",
     "Ciberseguridad/Otros",
     "Ciberseguridad/Maquinas",
-    "Ciberseguridad/Imagenes/Pasted image 20250303164402.png",
     "Ciberseguridad/Maquinas 1",
     "Ciberseguridad/Imagenes",
     "Ciberseguridad/Explotación de vulnerabilidades y ataques de fuerza bruta",
