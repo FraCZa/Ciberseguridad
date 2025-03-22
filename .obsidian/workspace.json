@@ -22,6 +22,20 @@
             }
           },
           {
+            "id": "aa32b970892ff8a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ciberseguridad/Maquinas/Maquina - Jerry/Maquina - Jerry (Pivoting).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Maquina - Jerry (Pivoting)"
+            }
+          },
+          {
             "id": "5aea6ee330d0d35f",
             "type": "leaf",
             "state": {
@@ -31,7 +45,8 @@
               "title": "Nueva pestaña"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -189,13 +204,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "48b517a409b5f4cf",
+  "active": "aa32b970892ff8a4",
   "lastOpenFiles": [
+    "Ciberseguridad/Imagenes/Pasted image 20250322165238.png",
+    "Ciberseguridad/Imagenes/Pasted image 20250322164618.png",
+    "Ciberseguridad/Maquinas/Maquina - Jerry/Maquina - Jerry (Pivoting).md",
     "Ciberseguridad/Imagenes/Pasted image 20250322165042.png",
     "Ciberseguridad/Imagenes/Pasted image 20250322164816.png",
     "Ciberseguridad/Maquinas/Maquina - Jerry/Pasted image 20250322163216.png",
-    "Ciberseguridad/Maquinas/Maquina - Jerry/Maquina - Jerry (Pivoting).md",
-    "Ciberseguridad/Imagenes/Pasted image 20250322164618.png",
     "Ciberseguridad/Imagenes/Pasted image 20250317174502.png",
     "Pasted.md",
     "Ciberseguridad/Maquinas/Maquina - Jerry",
@@ -232,7 +248,6 @@
     "Ciberseguridad/Maquinas",
     "Ciberseguridad/Imagenes/Pasted image 20250303164402.png",
     "Ciberseguridad/Imagenes/Pasted image 20241211182122.png",
-    "Ciberseguridad/Imagenes/Pasted image 20241211182254.png",
     "Ciberseguridad/Maquinas 1",
     "Ciberseguridad/Imagenes",
     "Ciberseguridad/Explotación de vulnerabilidades y ataques de fuerza bruta",
