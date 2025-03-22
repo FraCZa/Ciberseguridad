@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ciberseguridad/Maquinas 1/Maquina - Mirame..md",
+                "file": "Ciberseguridad/Maquinas/Maquina - Jerry (Pivoting).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Maquina - Mirame."
+              "title": "Maquina - Jerry (Pivoting)"
             }
           }
         ]
@@ -170,13 +170,14 @@
   },
   "active": "48b517a409b5f4cf",
   "lastOpenFiles": [
+    "Ciberseguridad/Maquinas/Maquina - Mirame..md",
+    "Ciberseguridad/Maquinas 1/Maquina - Mirame..md",
     "Ciberseguridad/Maquinas 1/Maquina - Pequeñas mentirosas..md",
     "Ciberseguridad/Maquinas 1/Maquina - Jerry (Pivoting).md",
     "Ciberseguridad/Maquinas 1/Maquina - Consolelog.md",
     "Ciberseguridad/Maquinas 1/Maquina - Buscalove.md",
     "Ciberseguridad/Maquinas 1/Maquina - Lame.md",
     "Ciberseguridad/Maquinas 1/Maquina - Legacy.md",
-    "Ciberseguridad/Maquinas 1/Maquina - Mirame..md",
     "Ciberseguridad/Maquinas 1/Maquina - Vendetta.md",
     "Ciberseguridad/Maquinas 1/Maquina - Verdejo.md",
     "Ciberseguridad/Maquinas 1/Maquina - Walkingcms..md",
@@ -195,7 +196,6 @@
     "Ciberseguridad/Resumen/Escaneo y enumeración de red..md",
     "Ciberseguridad/Resumen/Enumeración de Servicios.md",
     "Ciberseguridad/Resumen/Análisis de Vulnerabilidades..md",
-    "Ciberseguridad/Resumen/Análisis de Tráfico y Archivos..md",
     "Ciberseguridad/Resumen",
     "Ciberseguridad/Pivoting con metasploit",
     "Ciberseguridad/Paginas",
