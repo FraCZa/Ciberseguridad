@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ciberseguridad/Herramientas/Netexec.md",
+                "file": "Ciberseguridad/Ciberseguridad/Diferencias entre Nat, Adaptador puente y Red Nat.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Netexec"
+              "title": "Diferencias entre Nat, Adaptador puente y Red Nat"
             }
           },
           {
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "20250317174502",
+                "query": "\"![[Pasted image 20241211182013.png]]\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -191,6 +191,7 @@
   },
   "active": "792cd74187e25d77",
   "lastOpenFiles": [
+    "Ciberseguridad/Herramientas/Netexec.md",
     "Ciberseguridad/Pivoting con metasploit/Que es el PIVOTING.md",
     "Ciberseguridad/Maquina - Blue.md",
     "Ciberseguridad/Maquina - Bashed.md",
@@ -216,7 +217,6 @@
     "Ciberseguridad/Conceptos Básicos de Hacking/Netcat para entablar Reverse Shell.md",
     "Ciberseguridad/Conceptos Básicos de Hacking/Compartir Archivos por la red en máquinas windows (certutil).md",
     "Ciberseguridad/Conceptos Básicos de Hacking/Compartir archivos con servidor HTTP con Python + Reverse shell.md",
-    "Ciberseguridad/Ciberseguridad/Redes clase A, B, C y máscara de red..md",
     "Ciberseguridad/Imagenes/Pasted image 20250317175955.png",
     "Ciberseguridad/Imagenes/Pasted image 20250322165238.png",
     "Ciberseguridad/Imagenes/Pasted image 20250322164618.png",
