@@ -41,7 +41,9 @@ ssh (USUARIO)@(IP_VICTIMA)
 ftp (IP_VICTIMA)
 ```
 - Agregamos el usuario y la contraseña y ya estamos dentro.
-![[Pasted image 20241212203726.png]]
+
+![](../Imagenes/Pasted%20image%2020241212203726.png)
+
 
 
 ==ATAQUE A USUARIOS==
@@ -49,7 +51,9 @@ ftp (IP_VICTIMA)
 	- 1.- Como nos falta el usuario el -l es en mayuscula (-L) y el -p es en minuscula.
 	- 2.- El diccionario para usuario es diferente.
 		`/usr/share/wordlists/metasploit/unix_users.txt`
-![[Pasted image 20241212210549.png]]
+
+![](../Imagenes/Pasted%20image%2020241212210549.png)
+
 - Si no sale ningún resultado, usamos el diccionario `rockyou.txt`.
 
 
@@ -57,23 +61,32 @@ ftp (IP_VICTIMA)
 ==FUERZA BRUTA A PANELES DE LOGIN WEB
 
 - En este caso, entramos a la pagina del puerto 80 de la maquina victima y nos encontramos con un login web.
-![[Pasted image 20241212212156.png]]
 
 - Se recomienda siempre probar con admin en usuario.
 - Para este caso vamos a usar la herramienta `burp suite`.
 	- Esta herramienta intercepta una petición HTTP.
 	- sabemos que para usar burt suip tenemos que ir a ajustes del navegador y cambiar el proxy a manual he ingresar nuestro local host con el puerto 8080
-	![[Pasted image 20241212212634.png]]
+
+	![](../Imagenes/Pasted%20image%2020241212212634.png)
+	
 	- Se cambia por este dato 
-	![[Pasted image 20241212213159.png]]
+
+	![](../Imagenes/Pasted%20image%2020241212213159.png)
+	
 	
 - Dejamos interceptando Burt Suite.
-![[Pasted image 20241212212741.png]]
+
+![](../Imagenes/Pasted%20image%2020241212212741.png)
+
 - Nos vamos a la pagina web y mandamos la petición poniendo como usuario admin y contraseña admin
-![[Pasted image 20241212212828.png]]
+
+![](../Imagenes/Pasted%20image%2020241212212828.png)
+
 - Y le damos a login.
 - Nos saldrá lo siguiente:
-![[Pasted image 20241212213242.png]]
+
+![](../Imagenes/Pasted%20image%2020241212213242.png)
+
 - Teniendo estos datos nos vamos a hydra.
 - Usamos el siguiente comando:
 ```
@@ -89,9 +102,13 @@ hydra -l bob -P /usr/share/wordlists/rockyou.txt -t 1 -f (IP_VICTIMA) http-get (
 - La ruta URL que va al final de comando también la entrega Burt Suite en la primera línea después de POST.
 - Después de la URL ponemos lo que nos entrega la línea 16 de Burt Suite, pero como no tenemos el password cambiamos el admin por ^PASS^. Lo mismo si no tuviéramos el usuario.
 - El mensaje de erro aparece cuando en la web login no acertamos la contraseña.
-![[Pasted image 20241212215039.png]]
 
-![[Pasted image 20241212214340.png]]
+![](../Imagenes/Pasted%20image%2020241212215039.png)
+
+
+
+![](../Imagenes/Pasted%20image%2020241212214340.png)
+
 - Ya tendríamos la password.
 
 
@@ -102,32 +119,48 @@ PUERTO 21
 ```
 search ftp_login
 ```
-![[Pasted image 20241213171610.png]]
+
+![](../Imagenes/Pasted%20image%2020241213171610.png)
+
 - Vamos a utilizar este modulo usando el comando `use` .
-![[Pasted image 20241213171653.png]]
+
+![](../Imagenes/Pasted%20image%2020241213171653.png)
+
 - Vamos a configurarlo usando el comando `show options`.
-- Vamos a configurar solo 2 parametros:
+- Vamos a configurar solo 2 parámetros:
 	- PASS_FILE
 	- USERNAME
-![[Pasted image 20241213171810.png]]
+
+![](../Imagenes/Pasted%20image%2020241213171810.png)
+
 - En la descripción de PASS_FILE nos sale lo siguiente:
-![[Pasted image 20241213171909.png]]
+
+![](../Imagenes/Pasted%20image%2020241213171909.png)
+
 - Eso quiere decir que el archivo contiene una contraseña, una por línea, por ende vamos a agregar el diccionario `rockyou.txt`.
-![[Pasted image 20241213172033.png]]
+
+![](../Imagenes/Pasted%20image%2020241213172033.png)
+
 - En este caso ya sabemos que el usuario es Juan, así que vamos a agregarlo en USERNAME.
 - Ahora solo nos queda configurar el RHOST que en este caso seria la IP de la victima
 - Quedaría de esta manera:
-![[Pasted image 20241213172706.png]]
+
+![](../Imagenes/Pasted%20image%2020241213172706.png)
+
 - Y ejecutamos
 - El ataque por Metasploit es un poco lento.
-![[Pasted image 20241213173921.png]]
+
+![](../Imagenes/Pasted%20image%2020241213173921.png)
+
 
 PUERTO 22 (SSH)
 - Lo mismo que con el puerto 21 solo cambia el comando.
 ```
 search ssh_login
 ```
-![[Pasted image 20241213174353.png]]
+
+![](../Imagenes/Pasted%20image%2020241213174353.png)
+
 - Repetimos los mismos pasos.
 
 
@@ -139,14 +172,17 @@ search ssh_login
 ```
 hydra -l (USUARIO) -P /usr/share/wordlists/rockyou.txt mysql://(IP_VICTIMA)
 ```
-![[Pasted image 20241213180459.png]]
+
+![](../Imagenes/Pasted%20image%2020241213180459.png)
+
 - Puede que la contraseña se encuentre al final del diccionario, para eso hay un comando que pide a Hydra empezar desde el final.
 ```
 tac /usr/share/wordlists/rockyou.txt > rockyou_invertido.txt
 ```
 - El comando tac invierte cualquier archivo .txt, un diccionario, etc.
-- Suele suceder que cuando se utiliza el comando `tac`, al momento de leer el diccionario abra un error, este error se genera porque dentro de la lista se generan espacios
-![[Pasted image 20241213181431.png]]
+- Suele suceder que cuando se utiliza el comando `tac`, al momento de leer el diccionario abra un error, este error se genera porque dentro de la lista se generan espacios.
+
+![](../Imagenes/Pasted%20image%2020241213181431.png)
 - Para solucionar esto, vamos a eliminar la primera línea, y eliminar las letras y símbolos amarillos de las otras líneas.
 ![[Pasted image 20241213181556.png]]
 - Ahora usamos el siguiente comando para eliminar los espacios:
