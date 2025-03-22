@@ -90,6 +90,5 @@ set SESSION (NUMERO_SESSION)
 - ==SI YA ESTAMOS OCUPANDO EL PUERTO 4444 ANTERIORMENTE ES RECOMENDABLE CAMBIARLO POR CUALQUIER OTRO==.
 ![](../Imagenes/Pasted%20image%2020250112152831.png)
 - Nuevamente tenemos una sesión meterpreter, ahora vamos a ejecutar el comando `shell` para posterior ejecutar el comando `whoami` y ver si somos usuarios principal.
-![[Pasted image 20250112152944.png]]
 ![](../Imagenes/Pasted%20image%2020250112152944.png)
 - Lo somos.
