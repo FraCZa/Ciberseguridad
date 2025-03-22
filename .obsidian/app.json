@@ -1,4 +1,5 @@
 {
   "useMarkdownLinks": true,
-  "attachmentFolderPath": "Ciberseguridad/Imagenes"
+  "attachmentFolderPath": "Ciberseguridad/Imagenes",
+  "newLinkFormat": "relative"
 }
