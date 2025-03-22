@@ -2,7 +2,7 @@ kali
 Port: 22, 80
 
 - Vamos a ver la pagina web por si encontramos algo interesante.
-![[Pasted image 20250310183127.png]]
+![[Pasted image 20250310183127.png]](./Imagenes/20250310183127.png)
 - Encontramos un login web, pero de todas formas vamos a hacer fuzzing web para ver si encontramos algo mas.
 - Vamos a usar sqlmap para encontrar alguna base de dato.
 ![[Pasted image 20250310184037.png]]
