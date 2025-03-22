@@ -20,6 +20,16 @@
               "icon": "lucide-file",
               "title": "Maquina - Jerry (Pivoting)"
             }
+          },
+          {
+            "id": "5aea6ee330d0d35f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nueva pestaña"
+            }
           }
         ]
       }
@@ -78,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 362.5
   },
   "right": {
     "id": "df58977ec4c567d9",
@@ -170,6 +180,8 @@
   },
   "active": "48b517a409b5f4cf",
   "lastOpenFiles": [
+    "Ciberseguridad/Imagenes/Pasted image 20250317174502.png",
+    "Ciberseguridad/Maquinas/Maquina - Jerry (Pivoting).md",
     "Ciberseguridad/Maquinas/Maquina - Mirame..md",
     "Ciberseguridad/Maquinas 1/Maquina - Mirame..md",
     "Ciberseguridad/Maquinas 1/Maquina - Pequeñas mentirosas..md",
@@ -194,8 +206,6 @@
     "Ciberseguridad/Resumen/Fuerza Bruta y Ataques de Autenticación..md",
     "Ciberseguridad/Resumen/Explotación y Post-Explotación..md",
     "Ciberseguridad/Resumen/Escaneo y enumeración de red..md",
-    "Ciberseguridad/Resumen/Enumeración de Servicios.md",
-    "Ciberseguridad/Resumen/Análisis de Vulnerabilidades..md",
     "Ciberseguridad/Resumen",
     "Ciberseguridad/Pivoting con metasploit",
     "Ciberseguridad/Paginas",
