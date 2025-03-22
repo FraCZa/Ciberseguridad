@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ciberseguridad/Explotación de vulnerabilidades web/Wireshark - Interceptar credenciales de protocolos vulnerables..md",
+                "file": "Ciberseguridad/Explotación de vulnerabilidades y ataques de fuerza bruta/Hydra , John The Ripper.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Wireshark - Interceptar credenciales de protocolos vulnerables."
+              "title": "Hydra , John The Ripper"
             }
           },
           {
@@ -191,6 +191,8 @@
   },
   "active": "48b517a409b5f4cf",
   "lastOpenFiles": [
+    "Ciberseguridad/Imagenes/Pasted image 20241212203537.png.~tmp",
+    "Ciberseguridad/Explotación de vulnerabilidades web/Wireshark - Interceptar credenciales de protocolos vulnerables..md",
     "Ciberseguridad/Explotación de vulnerabilidades web/Wfuzz, DIRB, DIRSEARCH - Enumeración de subdominios.md",
     "Ciberseguridad/Imagenes/Pasted image 20241214181500.png.~tmp",
     "Ciberseguridad/Explotación de vulnerabilidades web/Webshell - Obtener intrusión a servidor..md",
@@ -217,8 +219,6 @@
     "Ciberseguridad/Conceptos Básicos de Hacking/Compartir Archivos por la red en máquinas windows (certutil).md",
     "Ciberseguridad/Escalada de privilegios + Post explotación/SUDO -L  - Escalada de privilegios en Linux..md",
     "Ciberseguridad/Escalada de privilegios + Post explotación/METASPLOIT - Escalada de privilegios automática en Linux & Windows..md",
-    "Ciberseguridad/Escalada de privilegios + Post explotación/Enumeración de usuarios en sistemas Windows..md",
-    "Ciberseguridad/Conceptos Básicos de Hacking/Reconocimiento de red con ARP-SCAN, NETDISCOVER y NMAP.md",
     "Ciberseguridad/Imagenes/Pasted image 20241211203258.png.~tmp",
     "Ciberseguridad/Imagenes/Pasted image 20250317175955.png",
     "Ciberseguridad/Imagenes/Pasted image 20250322165238.png",

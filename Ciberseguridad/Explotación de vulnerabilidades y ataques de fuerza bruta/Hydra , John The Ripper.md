@@ -4,24 +4,37 @@ rar- Ataque de fuerza bruta.
 
 ==ATAQUE A CONTRASEÑAS (SSH Y FTP)
 - Vamos a utilizar una maquina de `HackMyVM`.
-![[Pasted image 20241212202241.png]]
+
+![](../Imagenes/Pasted%20image%2020241212202241.png)
+
 - Tenemos 3 puertos abiertos.
 - Los puertos 21 y 22 por lo general son puertos donde se pueden hacer fuerza bruta.
 
 ==PARA PUERTO 22 (SSH)==
-![[Pasted image 20241212203134.png]]
+
+![](../Imagenes/Pasted%20image%2020241212203134.png)
+
 - Ya tenemos la clave:
-![[Pasted image 20241212203249.png]]
+
+![](../Imagenes/Pasted%20image%2020241212203249.png)
+
 - Vamos a entrar por el puerto usando estos datos con el siguiente comando:
 ```
 ssh (USUARIO)@(IP_VICTIMA)
 ```
-![[Pasted image 20241212203359.png]]
-- Ingresamos la contraseña y listo.
-![[Pasted image 20241212203434.png]]
 
-==PARA PUERTO 21 (FTP)
-![[Pasted image 20241212203537.png]]
+![](../Imagenes/Pasted%20image%2020241212203359.png)
+
+
+- Ingresamos la contraseña y listo.
+
+![](../Imagenes/Pasted%20image%2020241212203434.png)
+
+
+==PARA PUERTO 21 (FTP)==
+
+![](../Imagenes/Pasted%20image%2020241212203537.png)
+
 - La diferencia es cambiar de ssh a ftp.
 - Cuando tengamos la contraseña, la forma de entrar al puerto ftp es con este comando:
 ```
