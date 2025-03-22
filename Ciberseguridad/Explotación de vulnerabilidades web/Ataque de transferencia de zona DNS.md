@@ -31,11 +31,19 @@ wfuzz -c --hc=404 -w /usr/share/wordlists/seclists/Discovery/DNS/subdomains-top1
 
 - Vamos a agregar un filtro para ver la información que nos importa, vamos a limitar las lineas "L"
 `--hl=367`
-![[Pasted image 20241214194024.png]]
+
+![](../Imagenes/Pasted%20image%2020241214194024.png)
+
 - Y encontramos un subdominio:
-![[Pasted image 20241214194203.png]]
+
+![](../Imagenes/Pasted%20image%2020241214194203.png)
+
 - Entonces vamos a ingresar files al fichero hosts
-![[Pasted image 20241214194304.png]]
+
+![](../Imagenes/Pasted%20image%2020241214194304.png)
+
 - Ahora ingresamos a la pagina.
-![[Pasted image 20241214194424.png]]
+
+![](../Imagenes/Pasted%20image%2020241214194424.png)
+
 - Ya estamos dentro.

@@ -1,14 +1,17 @@
 - Podemos ocupar esta herramienta para cambiar la extensión .php por cualquier otra sin la necesidad de cambiarlo desde la shell.
 
 - Vamos a abrir Burp Suite.
-![[Pasted image 20241219185703.png]]
 - Ya tenemos configurado el navegador para que al momento de mandar algo por el navegador ==Burp Suite== lo intercepte y lo cambiemos.
 - Para eso vamos a crear un .php y lo subiremos a una pagina que no acepta .php pero si un derivado de este.
-- Cuando intercepte lo que nos va a interesar es el ==filename== 
-![[Pasted image 20241219190344.png]]
+- Cuando intercepte, lo que nos va a interesar es el ==filename== 
+
+![](../Imagenes/Pasted%20image%2020241219190344.png)
+
 - Este lo podemos cambiar por .phtml y lo mandamos apretando el botón ==forward==.
-- Comprobamos si se subio:
-![[Pasted image 20241219190510.png]]
+- Comprobamos si se subió:
+
+![](../Imagenes/Pasted%20image%2020241219190510.png)
+
 - Ahora desactivamos ==Burp Suite== y seguimos atacando la maquina.
 
 
@@ -17,12 +20,18 @@
 - Apartado de ==Burp Suite== 
 - Nuevamente vamos a subir un .php pero esta vez vamos a ver que extensiones puede ser la correcta.
 - Para eso vamos a utilizar el ==Repeater== para probar muchas extensiones.
-![[Pasted image 20241219191832.png]]
+
+![](../Imagenes/Pasted%20image%2020241219191832.png)
+
 - Para activar ==Repeater== usamos ctrl + r y se manda la petición.
 - Ya en ==Repeater==, apretamos el botón send y nos saldrá la respuesta de que no es la extensión correcta.
-![[Pasted image 20241219192116.png]]
+
+![](../Imagenes/Pasted%20image%2020241219192116.png)
+
 - Así iremos probando hasta dar con la extensión correcta que en este caso es .phtml
-![[Pasted image 20241219192225.png]]
+
+![](../Imagenes/Pasted%20image%2020241219192225.png)
+
 - Luego volvemos al ==Proxy== y enviamos la solicitud con la extensión correcta.
 
 ==USO DEL INTRUDER==
@@ -31,7 +40,9 @@
 - Activamos ==Burp Suite==
 - ==Intruder== permite hacer una búsqueda de la extensión correcta para subir el archivo.
 - Vamos a crear un .txt con posibles extensiones correctas.
-![[Pasted image 20241219193148.png]]
+
+![](../Imagenes/Pasted%20image%2020241219193148.png)
+
 - Ya en ==Burp Suite== tenemos que especificar donde queremos que pruebe todas las extensiones posibles.
 - Apretamos `ctrl + i` para mandar la petición a intruder.
 ![[Pasted image 20241219193953.png]]
