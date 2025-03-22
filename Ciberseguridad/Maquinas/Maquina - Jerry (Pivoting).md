@@ -4,7 +4,7 @@ Port: 8080
 
 - Vamos a ver su pagina web.
 - Tenemos un Tomcat, por lo tanto existe un login para poder entrar.
-![[Pasted image 20250317174502.png]](./Imagenes/Pasted_image_20250317174502.png)
+![[Pasted image 20250317174502.png]](Ciberseguridad/Imagenes/Pasted_image_20250317174502.png)
 - Sabemos que por lo general cuando no se configura bien, Tomcat viene con usuarios predefinidos, vamos a probar cada usuario
 - Las credenciales eran, ==tomcat:s3cret==.
 ![[Pasted image 20250317175955.png]]
