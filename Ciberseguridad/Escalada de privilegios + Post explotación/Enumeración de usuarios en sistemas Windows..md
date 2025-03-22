@@ -3,6 +3,7 @@
 ```
 net users
 ```
-- Este comando solo se puede ejecutar despues de ejecutar shell.
-![[Pasted image 20250112153650.png]]
+- Este comando solo se puede ejecutar después de ejecutar shell.
+
+![](../Imagenes/Pasted%20image%2020250112153650.png)
 - Acá hay 3 usuarios.

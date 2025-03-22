@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ciberseguridad/Conceptos Básicos de Hacking/Reconocimiento de red con ARP-SCAN, NETDISCOVER y NMAP.md",
+                "file": "Ciberseguridad/Escalada de privilegios + Post explotación/METASPLOIT - Escalada de privilegios automática en Linux & Windows..md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Reconocimiento de red con ARP-SCAN, NETDISCOVER y NMAP"
+              "title": "METASPLOIT - Escalada de privilegios automática en Linux & Windows."
             }
           },
           {
@@ -191,6 +191,9 @@
   },
   "active": "48b517a409b5f4cf",
   "lastOpenFiles": [
+    "Ciberseguridad/Escalada de privilegios + Post explotación/Enumeración de usuarios en sistemas Windows..md",
+    "Ciberseguridad/Conceptos Básicos de Hacking/Reconocimiento de red con ARP-SCAN, NETDISCOVER y NMAP.md",
+    "Ciberseguridad/Imagenes/Pasted image 20241211203258.png.~tmp",
     "Ciberseguridad/Conceptos Básicos de Hacking/NMAP.md",
     "Ciberseguridad/Conceptos Básicos de Hacking/Netcat para entablar Reverse Shell.md",
     "Ciberseguridad/Conceptos Básicos de Hacking/Compartir Archivos por la red en máquinas windows (certutil).md",
@@ -215,8 +218,6 @@
     "Ciberseguridad/Otros/Windows, enum4linux , LinPEAS.md",
     "Ciberseguridad/Imagen/Binwalk (png), STEGHIDE (jpg).md",
     "Ciberseguridad/Herramientas/Msfvenom - Generar nuestros propios payloads.md",
-    "Ciberseguridad/Herramientas/FFUF.md",
-    "Ciberseguridad/Herramientas/EVIL_WINRM (CONECTARSE DE FORMA REMOTA A UN WINDOWS).md",
     "Ciberseguridad/Imagenes/Pasted image 20250317175955.png",
     "Ciberseguridad/Imagenes/Pasted image 20250322165238.png",
     "Ciberseguridad/Imagenes/Pasted image 20250322164618.png",
@@ -235,7 +236,6 @@
     "Ciberseguridad/Maquinas",
     "Ciberseguridad/Maquinas 1",
     "Ciberseguridad/Imagenes",
-    "Ciberseguridad/Explotación de vulnerabilidades y ataques de fuerza bruta",
-    "Ciberseguridad/Imagen"
+    "Ciberseguridad/Explotación de vulnerabilidades y ataques de fuerza bruta"
   ]
 }

