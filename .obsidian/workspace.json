@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ciberseguridad/Explotación de vulnerabilidades web/Wfuzz, DIRB, DIRSEARCH - Enumeración de subdominios.md",
+                "file": "Ciberseguridad/Explotación de vulnerabilidades web/Wireshark - Interceptar credenciales de protocolos vulnerables..md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Wfuzz, DIRB, DIRSEARCH - Enumeración de subdominios"
+              "title": "Wireshark - Interceptar credenciales de protocolos vulnerables."
             }
           },
           {
@@ -191,6 +191,7 @@
   },
   "active": "48b517a409b5f4cf",
   "lastOpenFiles": [
+    "Ciberseguridad/Explotación de vulnerabilidades web/Wfuzz, DIRB, DIRSEARCH - Enumeración de subdominios.md",
     "Ciberseguridad/Imagenes/Pasted image 20241214181500.png.~tmp",
     "Ciberseguridad/Explotación de vulnerabilidades web/Webshell - Obtener intrusión a servidor..md",
     "Ciberseguridad/Explotación de vulnerabilidades web/Tomcat - Hacking servidor.md",
@@ -235,7 +236,6 @@
     "Ciberseguridad/Paginas",
     "Ciberseguridad/Otros",
     "Ciberseguridad/Maquinas",
-    "Ciberseguridad/Maquinas 1",
-    "Ciberseguridad/Imagenes"
+    "Ciberseguridad/Maquinas 1"
   ]
 }

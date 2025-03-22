@@ -44,10 +44,13 @@ wfuzz -c --hc=404 --hl=1 -w /usr/share/wordlists/dirbuster/directory-list-lowerc
 ![](../Imagenes/Pasted%20image%2020241214182652.png)
 
 - Tenemos que modificar el fichero host.
-![[Pasted image 202412141
+
 ![](../Imagenes/Pasted%20image%2020241214182758.png)
+
 - Ya podemos ingresar:
-![[Pasted image 20241214182825.png]]
+
+![](../Imagenes/Pasted%20image%2020241214182825.png)
+
 
 
 ==dirsearch
