@@ -1,0 +1,35 @@
+- Eficacia:
+	- Hacer las cosas bien y de manera correcta para alcanzar los resultados.
+- Eficiencia:
+	- Obtener un máximo rendimiento de los recursos utilizados para lograrlos.
+- El factor humano:
+	- Todos los humanos no son iguales.
+- El factor experiencia:
+	- Nuestras experiencias pasadas condicionarán nuestras decisiones futuras.
+- El factor miedo:
+	- Factor del temor a las consecuencias.
+- El factor de entorno:
+	- La decisión esta condicionada por la situación política, económica, cultural y social.
+- El factor presiones externas:
+- Decisiones fundamentadas:
+	- Respalda las decisiones abordadas.
+
+- Toma de decisiones intuitiva:
+	- Sensaciones y experiencia de quien tome la decisión.
+- Toma de decisiones racional:
+	- Basado en múltiples análisis de la situación antes de definir los próximos pasos que seguir.
+- Toma de decisiones rutinarias:
+	- Pueden resolverse de manera inmediata.
+- Toma de decisiones de urgencia:
+	- Situaciones inesperadas que necesitan una resolución inminente.
+- Toma de decisiones programadas:
+	- Decisiones que se toman día a día y que no requieren análisis.
+- Toma de decisiones no programada:
+	- Situaciones que no tienen precedentes y que han surgido de improviso.
+- Toma de decisiones operativas:
+	- No tienen impacto en los objetivos de mediano y largo plazo.
+- Toma de decisiones estratégicas:
+	- Cuando las decisiones afectan la consecución de los objetivos de la empresa.
+- Toma de decisiones intuitiva:
+	- No son 100% recomendables.
+	- Se compone de conocimientos adquiridos basado en las experiencias de uno.

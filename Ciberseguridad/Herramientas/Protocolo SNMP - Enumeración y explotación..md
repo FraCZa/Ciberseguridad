@@ -1,0 +1,1 @@
+- El protocolo SNMP se utiliza para gestionar y monitorizar dispositivos en redes IP.

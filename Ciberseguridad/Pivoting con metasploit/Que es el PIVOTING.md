@@ -1,0 +1,2 @@
+- Técnica para acceder a redes y sistemas que no son directamente accesibles desde el atacante original
+- Consiste en aprovechar una maquina ya comprometida para lanzar ataques adicionales hacia otros sistemas dentro de la red interna.

@@ -1,0 +1,217 @@
+{
+  "main": {
+    "id": "ed82905243ea6ca8",
+    "type": "split",
+    "children": [
+      {
+        "id": "8a53cd7e43510908",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "39952b42ab0fd302",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maquinas/Maquina - Buscalove.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Maquina - Buscalove"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2cacc90e46553c78",
+    "type": "split",
+    "children": [
+      {
+        "id": "fffb846b8c34d0bb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4734dda7f98a4379",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "99a47e887c3bf4e9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "sudo roo",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "37f086c389456b65",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 527.5
+  },
+  "right": {
+    "id": "ee3185a67dc02d73",
+    "type": "split",
+    "children": [
+      {
+        "id": "b529777ab9923655",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fe9c22ed62bc5299",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Clases/INTELIGENCIA DE ATAQUE..md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for INTELIGENCIA DE ATAQUE."
+            }
+          },
+          {
+            "id": "9edc73bcc56e7be0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Clases/INTELIGENCIA DE ATAQUE..md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from INTELIGENCIA DE ATAQUE."
+            }
+          },
+          {
+            "id": "8403dda1c570abae",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "872066398843b670",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Herramientas/NMAP.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of NMAP"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "39952b42ab0fd302",
+  "lastOpenFiles": [
+    "Maquina - Blue.md",
+    "Maquina - Bashed.md",
+    "Maquinas/MR. Robot - Hacking wordpress + Escalada de privilegios..md",
+    "Maquinas/Maquina - Whereismywebshell.md",
+    "Maquinas/Maquina - Walkingcms..md",
+    "Maquinas/Skynet - SMBclient.md",
+    "Maquinas/Year of the Rabbit..md",
+    "Explotación de vulnerabilidades web/File inclusion - Explotación vulnerabilidad local..md",
+    "Maquinas/Maquina - Buscalove.md",
+    "Maquinas 1/MR. Robot - Hacking wordpress + Escalada de privilegios..md",
+    "Maquinas 1/Year of the Rabbit..md",
+    "Maquinas 1/Skynet - SMBclient.md",
+    "Maquinas 1/Maquina - Whereismywebshell.md",
+    "Maquinas 1/Maquina - Walkingcms..md",
+    "Maquinas 1/Maquina - Verdejo.md",
+    "Maquinas 1/Maquina - Legacy.md",
+    "Maquinas 1/Maquina - Vendetta.md",
+    "Maquinas 1/Maquina - Psycho..md",
+    "Maquinas 1/Maquina - Pequeñas mentirosas..md",
+    "Maquinas 1/Maquina - Nodeclimb.md",
+    "Maquinas 1/Maquina - Mirame..md",
+    "Maquinas 1/Maquina - Library.md",
+    "Maquinas 1/Maquina - Lame.md",
+    "Maquinas 1/Maquina - Jerry (Pivoting).md",
+    "Maquinas 1/Maquina - Consolelog.md",
+    "Maquinas 1/Maquina - Buscalove.md",
+    "Maquinas 1",
+    "Imagenes/Pasted image 20250317191253.png",
+    "Imagenes/Pasted image 20250317191532.png",
+    "Imagenes/Pasted image 20250317191439.png",
+    "Imagenes/Pasted image 20250317183214.png",
+    "Imagenes/Pasted image 20250317184818.png",
+    "Imagenes/Pasted image 20250317184540.png",
+    "Imagenes/Pasted image 20250317184421.png",
+    "Imagenes/Pasted image 20250317184250.png",
+    "Imagenes/Pasted image 20250317183916.png",
+    "Imagenes/Pasted image 20250317183812.png",
+    "Untitled",
+    "Resumen",
+    "Analista Ciberseguridad",
+    "Maquinas",
+    "Untitled 1",
+    "Imagen",
+    "Explotación de vulnerabilidades web",
+    "Explotación de vulnerabilidades y ataques de fuerza bruta",
+    "Conceptos Básicos de Hacking"
+  ]
+}

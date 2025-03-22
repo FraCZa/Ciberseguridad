@@ -1,0 +1,220 @@
+{
+  "main": {
+    "id": "0f71f4348d1934c7",
+    "type": "split",
+    "children": [
+      {
+        "id": "cc8e1c749f02fb0a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "48b517a409b5f4cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ciberseguridad/Maquinas 1/Maquina - Mirame..md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Maquina - Mirame."
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "837b20369b68eb12",
+    "type": "split",
+    "children": [
+      {
+        "id": "7111f219f4e2c7cf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "792cd74187e25d77",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "a9b26a1148524caa",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "840e1987a016c5ec",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "df58977ec4c567d9",
+    "type": "split",
+    "children": [
+      {
+        "id": "52be1d2bd04a00a6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "284c0e5fe7654bf7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Ciberseguridad/Escalada de privilegios + Post explotación/SUID - Escalada de privilegios en Linux..md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes de SUID - Escalada de privilegios en Linux."
+            }
+          },
+          {
+            "id": "e78f00a05794cb4a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Ciberseguridad/Escalada de privilegios + Post explotación/SUID - Escalada de privilegios en Linux..md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes de SUID - Escalada de privilegios en Linux."
+            }
+          },
+          {
+            "id": "ef8ac10bc7365752",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "798eb6d2fb059b6a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Ciberseguridad/Escalada de privilegios + Post explotación/SUID - Escalada de privilegios en Linux..md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de SUID - Escalada de privilegios en Linux."
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false
+    }
+  },
+  "active": "48b517a409b5f4cf",
+  "lastOpenFiles": [
+    "Ciberseguridad/Maquinas 1/Maquina - Pequeñas mentirosas..md",
+    "Ciberseguridad/Maquinas 1/Maquina - Jerry (Pivoting).md",
+    "Ciberseguridad/Maquinas 1/Maquina - Consolelog.md",
+    "Ciberseguridad/Maquinas 1/Maquina - Buscalove.md",
+    "Ciberseguridad/Maquinas 1/Maquina - Lame.md",
+    "Ciberseguridad/Maquinas 1/Maquina - Legacy.md",
+    "Ciberseguridad/Maquinas 1/Maquina - Mirame..md",
+    "Ciberseguridad/Maquinas 1/Maquina - Vendetta.md",
+    "Ciberseguridad/Maquinas 1/Maquina - Verdejo.md",
+    "Ciberseguridad/Maquinas 1/Maquina - Walkingcms..md",
+    "Ciberseguridad/Maquinas 1/Maquina - Nodeclimb.md",
+    "Ciberseguridad/Maquinas 1/Maquina - Library.md",
+    "Ciberseguridad/Explotación básica de protocolos en windows/Protocolo RDP (3389) en Windows - Enumeración básica del sistema..md",
+    "Ciberseguridad/Maquinas 1/MR. Robot - Hacking wordpress + Escalada de privilegios..md",
+    "Ciberseguridad/Maquinas 1/Skynet - SMBclient.md",
+    "Ciberseguridad/Maquinas 1/Maquina - Psycho..md",
+    "Ciberseguridad/Escalada de privilegios + Post explotación/SUID - Escalada de privilegios en Linux..md",
+    "Ciberseguridad/Resumen/Transferencia de Archivos..md",
+    "Ciberseguridad/Resumen/Fuzzing y Descubrimiento de Directorios..md",
+    "Ciberseguridad/Resumen/Herramientas Adicionales..md",
+    "Ciberseguridad/Resumen/Fuerza Bruta y Ataques de Autenticación..md",
+    "Ciberseguridad/Resumen/Explotación y Post-Explotación..md",
+    "Ciberseguridad/Resumen/Escaneo y enumeración de red..md",
+    "Ciberseguridad/Resumen/Enumeración de Servicios.md",
+    "Ciberseguridad/Resumen/Análisis de Vulnerabilidades..md",
+    "Ciberseguridad/Resumen/Análisis de Tráfico y Archivos..md",
+    "Ciberseguridad/Resumen",
+    "Ciberseguridad/Pivoting con metasploit",
+    "Ciberseguridad/Paginas",
+    "Ciberseguridad/Otros",
+    "Ciberseguridad/Maquinas",
+    "Ciberseguridad/Imagenes/Pasted image 20250303164402.png",
+    "Ciberseguridad/Imagenes/Pasted image 20241211182122.png",
+    "Ciberseguridad/Imagenes/Pasted image 20241211182254.png",
+    "Ciberseguridad/Maquinas 1",
+    "Ciberseguridad/Imagenes/Pasted image 20250317183916.png",
+    "Ciberseguridad/Imagenes/Pasted image 20250317183812.png",
+    "Ciberseguridad/Imagenes/Pasted image 20250317183630.png",
+    "Ciberseguridad/Imagenes/Pasted image 20250317183214.png",
+    "Ciberseguridad/Imagenes/Pasted image 20250317180523.png",
+    "Ciberseguridad/Imagenes/Pasted image 20250317180320.png",
+    "Ciberseguridad/Imagenes/Pasted image 20250317180229.png",
+    "Ciberseguridad/Imagenes",
+    "Ciberseguridad/Explotación de vulnerabilidades y ataques de fuerza bruta",
+    "Ciberseguridad/Imagen",
+    "Ciberseguridad/Herramientas"
+  ]
+}
