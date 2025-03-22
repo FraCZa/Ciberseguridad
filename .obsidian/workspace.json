@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ciberseguridad/Explotación de vulnerabilidades web/File inclusion - Explotación vulnerabilidad local..md",
+                "file": "Ciberseguridad/Explotación de vulnerabilidades web/Modificar cookie.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "File inclusion - Explotación vulnerabilidad local."
+              "title": "Modificar cookie"
             }
           },
           {
@@ -191,6 +191,9 @@
   },
   "active": "48b517a409b5f4cf",
   "lastOpenFiles": [
+    "Ciberseguridad/Explotación de vulnerabilidades web/Fuzzing web - Uso de Gobuster.md",
+    "Ciberseguridad/Explotación de vulnerabilidades web/File Upload - Explotación de vulnerabilidad..md",
+    "Ciberseguridad/Explotación de vulnerabilidades web/File inclusion - Explotación vulnerabilidad local..md",
     "Ciberseguridad/Explotación de vulnerabilidades web/Bypass - Restricción de file upload.md",
     "Ciberseguridad/Explotación de vulnerabilidades web/Burp Suite - Modificar peticiones HTTP, Uso de Repeater, Uso del Intruder.md",
     "Ciberseguridad/Explotación de vulnerabilidades web/Ataque de transferencia de zona DNS.md",
@@ -215,9 +218,6 @@
     "Ciberseguridad/Herramientas/Netexec.md",
     "Ciberseguridad/Pivoting con metasploit/Que es el PIVOTING.md",
     "Ciberseguridad/Maquina - Blue.md",
-    "Ciberseguridad/Maquina - Bashed.md",
-    "Ciberseguridad/ATTACKTIVE DIRECTORY.md",
-    "Ciberseguridad/Pivoting con metasploit/Pivoting en Linux.md",
     "Ciberseguridad/Imagenes/Pasted image 20250317175955.png",
     "Ciberseguridad/Imagenes/Pasted image 20250322165238.png",
     "Ciberseguridad/Imagenes/Pasted image 20250322164618.png",

@@ -3,8 +3,10 @@
 ```
 gobuster dir -u http://(IP_VICTIMA) -w /usr/share/wordlists/dirbuster/directory-list-lowercase-2.3-medium.txt
 ```
-![[Pasted image 20241214174111.png]]
-- Tambien podemos buscar estciones de archivos agregando el comando:
+
+![](../Imagenes/Pasted%20image%2020241214174111.png)
+
+- También podemos buscar estaciones de archivos agregando el comando:
 ```
 -x php,thml,js,txt
 ```

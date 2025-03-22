@@ -54,6 +54,8 @@ ssh2john (NOMBRE_ARCHIVO_KEY) > (HASH)
 ```
 john --wordlist=/usr/share/wordlists/rockyou.txt (HASH)
 ```
-![[Pasted image 20241220162213.png]]
+
+![](../Imagenes/Pasted%20image%2020241220162213.png)
+
 - La contraseña seria ==celtic==
 - Ahora ingresamos los datos y ya estamos dentro de la maquina.
