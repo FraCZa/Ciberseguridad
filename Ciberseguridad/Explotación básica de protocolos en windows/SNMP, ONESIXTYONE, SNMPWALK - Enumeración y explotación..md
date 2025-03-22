@@ -38,7 +38,9 @@ onesixtyone -c /usr/share/wordlists/rockyou.txt (IP_VICTIMA)
 snmpwalk -v 2c -c (CLAVE_DE_COMUNIDAD) (IP_VICTIMA)
 ```
 - -v 2c --> es la versión.
-![[Dominio.png]]
+
+![](../Imagenes/Dominio.png)
+
 - Encontramos un dominio.
 - Podemos encontrar:
 	- Usuario.
@@ -46,9 +48,13 @@ snmpwalk -v 2c -c (CLAVE_DE_COMUNIDAD) (IP_VICTIMA)
 	- Dominio.
 	- Contraseña.
 - Vamos a añadir este domino en la carpeta /etc/host.
-![[Pasted image 20250104181933.png]]
 
-![[Pasted image 20250104182056.png]]
+![](../Imagenes/Pasted%20image%2020250104181933.png)
+
+
+
+![](../Imagenes/Pasted%20image%2020250104182056.png)
+
 - Ya estamos dentro de la pagina.
 - Ahora vamos a ver si la pagina tiene subdominios con ==wfuzz==
 
@@ -56,10 +62,18 @@ snmpwalk -v 2c -c (CLAVE_DE_COMUNIDAD) (IP_VICTIMA)
 wfuzz -c --hc=404 -w /usr/share/wordlists/seclists/Discovery/DNS/subdomains-top1million-110000.txt -H "Host: FUZZ.(DOMINIO) -u (IP_VICTIMA)"
 ```
 
-![[Pasted image 20250104183002.png]]
-![[Pasted image 20250104183036.png]]
+
+![](../Imagenes/Pasted%20image%2020250104183002.png)
+
+
+![](../Imagenes/Pasted%20image%2020250104183036.png)
+
 - Tenemos un sub dominio llamado ==utils==
 - Lo agregamos en el fichero /etc/hosts, quedaría ==utils.chaincorp.nyx==
-![[Pasted image 20250104183231.png]]
-![[Pasted image 20250104183353.png]]
+
+![](../Imagenes/Pasted%20image%2020250104183231.png)
+
+
+![](../Imagenes/Pasted%20image%2020250104183353.png)
+
 - Ya estamos dentro del sub-dominio.
