@@ -11,14 +11,12 @@
             "id": "48b517a409b5f4cf",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Maquina - Jerry (Pivoting).md",
-                "mode": "source",
-                "source": false
+                "file": "Ciberseguridad/Maquinas/Maquina - Jerry/Pasted image 20250322163216.png"
               },
-              "icon": "lucide-file",
-              "title": "Maquina - Jerry (Pivoting)"
+              "icon": "lucide-image",
+              "title": "Pasted image 20250322163216"
             }
           },
           {
@@ -191,12 +189,13 @@
   },
   "active": "792cd74187e25d77",
   "lastOpenFiles": [
-    "Pasted image 20250322163216.png",
+    "Ciberseguridad/Maquinas/Maquina - Jerry/Maquina - Jerry (Pivoting).md",
+    "Ciberseguridad/Maquinas/Maquina - Jerry",
+    "Ciberseguridad/Maquinas/Maquina - Jerry/Pasted image 20250322163216.png",
     "Pasted image 20250322162551.png",
     "Pasted image 20250322162953.png",
     "peo.md",
     "Ciberseguridad/Imagenes/Pasted image 20250322162838.png",
-    "Maquina - Jerry (Pivoting).md",
     "Ciberseguridad/Imagenes/Pasted image 20250317174502.png",
     "Ciberseguridad/Maquinas/Maquina - Mirame..md",
     "Ciberseguridad/Maquinas 1/Maquina - Mirame..md",
@@ -232,10 +231,8 @@
     "Ciberseguridad/Maquinas 1",
     "Ciberseguridad/Imagenes/Pasted image 20250317183916.png",
     "Ciberseguridad/Imagenes/Pasted image 20250317183812.png",
-    "Ciberseguridad/Imagenes/Pasted image 20250317183630.png",
     "Ciberseguridad/Imagenes",
     "Ciberseguridad/Explotación de vulnerabilidades y ataques de fuerza bruta",
-    "Ciberseguridad/Imagen",
-    "Ciberseguridad/Herramientas"
+    "Ciberseguridad/Imagen"
   ]
 }
