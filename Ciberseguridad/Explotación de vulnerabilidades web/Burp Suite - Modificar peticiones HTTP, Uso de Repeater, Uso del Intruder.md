@@ -45,18 +45,30 @@
 
 - Ya en ==Burp Suite== tenemos que especificar donde queremos que pruebe todas las extensiones posibles.
 - Apretamos `ctrl + i` para mandar la petición a intruder.
-![[Pasted image 20241219193953.png]]
+
+![](../Imagenes/Pasted%20image%2020241219193953.png)
+
 - Ya acá vamos a seleccionar lo que queremos que ==intruder== nos ataque y vamos a apretar el botón ==add==.
 - Nos vamos a ==settings==, a la opción ==Grep - Extract==
-![[Pasted image 20241219194319.png]]
+
+![](../Imagenes/Pasted%20image%2020241219194319.png)
+
 - Le damos a ==add== y luego  a ==refetch response==.
-![[Pasted image 20241219194424.png]]
+
+![](../Imagenes/Pasted%20image%2020241219194424.png)
+
 - Seleccionamos el siguiente mensaje para que ==Burp Suite== nos indique cuando una extensión es fallida, y le damos a ok.
-![[Pasted image 20241219194546.png]]
+
+![](../Imagenes/Pasted%20image%2020241219194546.png)
+
 - Si el mensaje es diferente, quiere decir que se encontró la extensión correcta.
 - Nos vamos a la opción de ==payloads== y subimos nuestro .txt con las extensiones.
-![[Pasted image 20241219194754.png]]
+
+![](../Imagenes/Pasted%20image%2020241219194754.png)
+
 - Apretamos el botón ==Start Attack==.
 - Y empezara el ataque.
-![[Pasted image 20241219194907.png]]
+
+![](../Imagenes/Pasted%20image%2020241219194907.png)
+
 - Y ya sabemos que petición es la correcta.

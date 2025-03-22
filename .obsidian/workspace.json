@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ciberseguridad/Explotación de vulnerabilidades web/Burp Suite - Modificar peticiones HTTP, Uso de Repeater, Uso del Intruder.md",
+                "file": "Ciberseguridad/Explotación de vulnerabilidades web/File inclusion - Explotación vulnerabilidad local..md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Burp Suite - Modificar peticiones HTTP, Uso de Repeater, Uso del Intruder"
+              "title": "File inclusion - Explotación vulnerabilidad local."
             }
           },
           {
@@ -191,6 +191,8 @@
   },
   "active": "48b517a409b5f4cf",
   "lastOpenFiles": [
+    "Ciberseguridad/Explotación de vulnerabilidades web/Bypass - Restricción de file upload.md",
+    "Ciberseguridad/Explotación de vulnerabilidades web/Burp Suite - Modificar peticiones HTTP, Uso de Repeater, Uso del Intruder.md",
     "Ciberseguridad/Explotación de vulnerabilidades web/Ataque de transferencia de zona DNS.md",
     "Ciberseguridad/Explotación básica de protocolos en windows/WEBSHELL ASPX, DIRB - Servidor Microsoft LLS.md",
     "Ciberseguridad/Explotación básica de protocolos en windows/SNMP, ONESIXTYONE, SNMPWALK - Enumeración y explotación..md",
@@ -216,8 +218,6 @@
     "Ciberseguridad/Maquina - Bashed.md",
     "Ciberseguridad/ATTACKTIVE DIRECTORY.md",
     "Ciberseguridad/Pivoting con metasploit/Pivoting en Linux.md",
-    "Ciberseguridad/Pivoting con metasploit/Pivoting en entornos Windows..md",
-    "Ciberseguridad/Resumen/Enumeración de Servicios.md",
     "Ciberseguridad/Imagenes/Pasted image 20250317175955.png",
     "Ciberseguridad/Imagenes/Pasted image 20250322165238.png",
     "Ciberseguridad/Imagenes/Pasted image 20250322164618.png",
