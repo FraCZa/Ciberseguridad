@@ -5,9 +5,13 @@
 ```
 xfreerdp /u:(USUARIO) /p:(PASSWORD) /v:(IP_VICTIMA):(PUERTO_DONE_ESTE_CORRIENDO_RDP)
 ```
-![[Pasted image 20241221174908.png]]
+
+![](../Imagenes/Pasted%20image%2020241221174908.png)
+
 - Cuando lo ejecutemos se nos abrirá una ventana de Windows.
-![[Pasted image 20241221174958.png]]
+
+![](../Imagenes/Pasted%20image%2020241221174958.png)
+
 - Estando dentro podemos usar los siguientes comandos:
 ```
 net user

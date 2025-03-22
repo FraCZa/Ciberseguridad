@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ciberseguridad/Explotación básica de protocolos en windows/HOTFIXES - Enumeración en Windows..md",
+                "file": "Ciberseguridad/Explotación básica de protocolos en windows/Protocolo SMB, Metasploit - Puerto 445.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HOTFIXES - Enumeración en Windows."
+              "title": "Protocolo SMB, Metasploit - Puerto 445"
             }
           },
           {
@@ -191,6 +191,8 @@
   },
   "active": "48b517a409b5f4cf",
   "lastOpenFiles": [
+    "Ciberseguridad/Explotación básica de protocolos en windows/Protocolo RDP (3389) en Windows - Enumeración básica del sistema..md",
+    "Ciberseguridad/Explotación básica de protocolos en windows/HOTFIXES - Enumeración en Windows..md",
     "Ciberseguridad/Escalada de privilegios + Post explotación/SUID - Escalada de privilegios en Linux..md",
     "Ciberseguridad/Conceptos Básicos de Hacking/NMAP.md",
     "Ciberseguridad/Conceptos Básicos de Hacking/Compartir archivos con servidor HTTP con Python + Reverse shell.md",
@@ -216,8 +218,6 @@
     "Ciberseguridad/Otros/Primeros pasos tras la intrusión. (Tratamiento de la TTY).md",
     "Ciberseguridad/Paginas/Pagina.md",
     "Ciberseguridad/Otros/Actualizaciones.md",
-    "Ciberseguridad/Otros/Alternativa de descarga laboratorio..md",
-    "Ciberseguridad/Otros/Contraseñas maquina.md",
     "Ciberseguridad/Imagenes/Pasted image 20250317175955.png",
     "Ciberseguridad/Imagenes/Pasted image 20250322165238.png",
     "Ciberseguridad/Imagenes/Pasted image 20250322164618.png",

@@ -7,16 +7,22 @@
 smbclient -L (IP_VICTIMA) -N
 ```
 ==N -> Enumerar recurso compartido sin poner credenciales.==
-![[Pasted image 20241221152431.png]]
+
+![](../Imagenes/Pasted%20image%2020241221152431.png)
+
 - En este caso no podemos enumerar este protocolo sin credenciales.
 - En este caso sabemos que el usuario es `mario` y la clave es `123123`. 
 - Ya teniendo esta información ahora vamos a listar los recursos compartidos ingresando el siguiente comando con el usuario y a continuación ingresando la clave:
 ```
 smbclient -L (IP_VICTIMA) -U '(USUARIO)'
 ```
-![[Pasted image 20241221152930.png]]
+
+![](../Imagenes/Pasted%20image%2020241221152930.png)
+
 - Ingresamos la clave.
-![[Pasted image 20241221152954.png]]
+
+![](../Imagenes/Pasted%20image%2020241221152954.png)
+
 - Ya tenemos los recursos compartidos.
 - Ahora, como sabemos cual de estos recursos nosotros tenemos acceso.
 	- Para eso vamos a utilizar ==smbmap==.
