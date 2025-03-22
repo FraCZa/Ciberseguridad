@@ -48,39 +48,48 @@ use /multi/handler
 ```
 search local_exploit_suggester
 ```
-![[Pasted image 20250112151806.png]]
+
+![](../Imagenes/Pasted%20image%2020250112151806.png)
 - Lo vamos a seleccionar.
 - Lo vamos a configurar.
-![[Pasted image 20250112151850.png]]
+
+![](../Imagenes/Pasted%20image%2020250112151850.png)
 - Solo nos va a pedir la session activa de windows.
 ```
 sessions -l
 ```
-![[Pasted image 20250112152004.png]]
+
+![](../Imagenes/Pasted%20image%2020250112152004.png)
 - Y la seleccionamos.
 ```
 set SESSION (NUMERO_SESSION)
 ```
-![[Pasted image 20250112152050.png]]
+
+![](../Imagenes/Pasted%20image%2020250112152050.png)
 - Verificamos.
-![[Pasted image 20250112152118.png]]
+
+![](../Imagenes/Pasted%20image%2020250112152118.png)
 - Ya esta seleccionado.
 - Ejecutamos el comando run.
-![[Pasted image 20250112152149.png]]
-![[Pasted image 20250112152247.png]]
+
+![](../Imagenes/Pasted%20image%2020250112152149.png)
+
+![](../Imagenes/Pasted%20image%2020250112152247.png)
 - Los exploit verdes son los que nos interesan.
 - Vamos a explotar el que esta marcado.
 - Copiamos el exploit y usamos el comando `use` + el nombre del exploit.
-![[Pasted image 20250112152401.png]]
+![](../Imagenes/Pasted%20image%2020250112152401.png)
 - Lo configuramos.
-![[Pasted image 20250112152437.png]]
+![](../Imagenes/Pasted%20image%2020250112152437.png)
 - Como podemos ver, nos piden 2 cosas:
 	- 1.- La session (que ya sabemos que hay 1 en este windows)
 	- 2.- LHOST que es la IP atacante.
-![[Pasted image 20250112152623.png]]
+
+![](../Imagenes/Pasted%20image%2020250112152623.png)
 - Ya configurado, ejecutamos comando ==run==.
 - ==SI YA ESTAMOS OCUPANDO EL PUERTO 4444 ANTERIORMENTE ES RECOMENDABLE CAMBIARLO POR CUALQUIER OTRO==.
-![[Pasted image 20250112152831.png]]
+![](../Imagenes/Pasted%20image%2020250112152831.png)
 - Nuevamente tenemos una sesión meterpreter, ahora vamos a ejecutar el comando `shell` para posterior ejecutar el comando `whoami` y ver si somos usuarios principal.
 ![[Pasted image 20250112152944.png]]
+![](../Imagenes/Pasted%20image%2020250112152944.png)
 - Lo somos.
