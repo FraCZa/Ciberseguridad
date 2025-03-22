@@ -22,20 +22,6 @@
             }
           },
           {
-            "id": "cdc1067cb48339e5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "peo.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "peo"
-            }
-          },
-          {
             "id": "5aea6ee330d0d35f",
             "type": "leaf",
             "state": {
@@ -45,8 +31,7 @@
               "title": "Nueva pestaña"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -204,13 +189,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cdc1067cb48339e5",
+  "active": "48b517a409b5f4cf",
   "lastOpenFiles": [
-    "Pasted image 20250322162953.png",
-    "Ciberseguridad/Imagenes/Pasted image 20250322162838.png",
     "Pasted image 20250322162551.png",
-    "Ciberseguridad/Imagenes/Maquina - Jerry (Pivoting).md",
+    "Pasted image 20250322162953.png",
     "peo.md",
+    "Ciberseguridad/Imagenes/Pasted image 20250322162838.png",
+    "Ciberseguridad/Imagenes/Maquina - Jerry (Pivoting).md",
     "Ciberseguridad/Imagenes/Pasted image 20250317174502.png",
     "Ciberseguridad/Maquinas/Maquina - Mirame..md",
     "Ciberseguridad/Maquinas 1/Maquina - Mirame..md",
@@ -247,7 +232,6 @@
     "Ciberseguridad/Imagenes/Pasted image 20250317183916.png",
     "Ciberseguridad/Imagenes/Pasted image 20250317183812.png",
     "Ciberseguridad/Imagenes/Pasted image 20250317183630.png",
-    "Ciberseguridad/Imagenes/Pasted image 20250317183214.png",
     "Ciberseguridad/Imagenes",
     "Ciberseguridad/Explotación de vulnerabilidades y ataques de fuerza bruta",
     "Ciberseguridad/Imagen",
