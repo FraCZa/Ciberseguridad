@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ciberseguridad/Explotación de vulnerabilidades web/Webshell - Obtener intrusión a servidor..md",
+                "file": "Ciberseguridad/Explotación de vulnerabilidades web/Wfuzz, DIRB, DIRSEARCH - Enumeración de subdominios.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Webshell - Obtener intrusión a servidor."
+              "title": "Wfuzz, DIRB, DIRSEARCH - Enumeración de subdominios"
             }
           },
           {
@@ -191,6 +191,8 @@
   },
   "active": "48b517a409b5f4cf",
   "lastOpenFiles": [
+    "Ciberseguridad/Imagenes/Pasted image 20241214181500.png.~tmp",
+    "Ciberseguridad/Explotación de vulnerabilidades web/Webshell - Obtener intrusión a servidor..md",
     "Ciberseguridad/Explotación de vulnerabilidades web/Tomcat - Hacking servidor.md",
     "Ciberseguridad/Imagenes/Pasted image 20241220153909.png.~tmp",
     "Ciberseguridad/Explotación de vulnerabilidades web/SQLmap - Inyecciones SQL.md",
@@ -217,8 +219,6 @@
     "Ciberseguridad/Escalada de privilegios + Post explotación/Enumeración de usuarios en sistemas Windows..md",
     "Ciberseguridad/Conceptos Básicos de Hacking/Reconocimiento de red con ARP-SCAN, NETDISCOVER y NMAP.md",
     "Ciberseguridad/Imagenes/Pasted image 20241211203258.png.~tmp",
-    "Ciberseguridad/Ciberseguridad/Redes clase A, B, C y máscara de red..md",
-    "Ciberseguridad/Ciberseguridad/Diferencias entre Nat, Adaptador puente y Red Nat.md",
     "Ciberseguridad/Imagenes/Pasted image 20250317175955.png",
     "Ciberseguridad/Imagenes/Pasted image 20250322165238.png",
     "Ciberseguridad/Imagenes/Pasted image 20250322164618.png",
