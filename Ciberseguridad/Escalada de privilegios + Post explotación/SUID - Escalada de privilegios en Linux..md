@@ -52,19 +52,20 @@ chmod u+s /bin/bash
 ==chmod==: Comando para cambiar los permisos de un archivo.
 ==u+s==: Significa "añadir el bit SUID para el propietario del archivo". Cuando el bit SUIT está establecido en un programa ejecutable, cualquiera que lo ejecute lo hará como root.
 ==/bin/bash==: Archivo al que se están aplicando los cambios de permisos. En este caso, es la shell Bash.
-![[Pasted image 20250111184512.png]]
+![](../Imagenes/Pasted%20image%2020250111184512.png)
 - Guardamos y lo ejecutamos.
-![[Pasted image 20250111184708.png]]
+![](../Imagenes/Pasted%20image%2020250111184708.png)
 - Nos sale un error.
 - Vamos a ver las líneas 7 y 8 del código.
 - Hay que poner la ruta absoluta del binario que estamos atacando.
-![[Pasted image 20250111185031.png]]
+![](../Imagenes/Pasted%20image%2020250111185031.png)
 - Vamos a probar nuevamente ejecutándolo.
-![[Pasted image 20250111185152.png]]
+![](../Imagenes/Pasted%20image%2020250111185152.png)
 - Ya no nos sale error.
 - Ahora ejecutamos el comando:
 ```
 bash -p
 ```
 - Ya somos root.
-![[Pasted image 20250111185323.png]]
+![](../Imagenes/Pasted%20image%2020250111185323.png)
+- Somos root.
