@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ciberseguridad/Explotación básica de protocolos en windows/WEBSHELL ASPX, DIRB - Servidor Microsoft LLS.md",
+                "file": "Ciberseguridad/Explotación de vulnerabilidades web/Ataque de transferencia de zona DNS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "WEBSHELL ASPX, DIRB - Servidor Microsoft LLS"
+              "title": "Ataque de transferencia de zona DNS"
             }
           },
           {
@@ -191,6 +191,7 @@
   },
   "active": "48b517a409b5f4cf",
   "lastOpenFiles": [
+    "Ciberseguridad/Explotación básica de protocolos en windows/WEBSHELL ASPX, DIRB - Servidor Microsoft LLS.md",
     "Ciberseguridad/Explotación básica de protocolos en windows/SNMP, ONESIXTYONE, SNMPWALK - Enumeración y explotación..md",
     "Ciberseguridad/Explotación básica de protocolos en windows/Protocolo SMB, Metasploit - Puerto 445.md",
     "Ciberseguridad/Explotación básica de protocolos en windows/RPCCLIENT - Enumeración de usuarios SAMBA.md",
@@ -217,7 +218,6 @@
     "Ciberseguridad/Pivoting con metasploit/Pivoting en entornos Windows..md",
     "Ciberseguridad/Resumen/Enumeración de Servicios.md",
     "Ciberseguridad/Resumen/Análisis de Vulnerabilidades..md",
-    "Ciberseguridad/Resumen/Análisis de Tráfico y Archivos..md",
     "Ciberseguridad/Imagenes/Pasted image 20250317175955.png",
     "Ciberseguridad/Imagenes/Pasted image 20250322165238.png",
     "Ciberseguridad/Imagenes/Pasted image 20250322164618.png",

