@@ -11,12 +11,14 @@
             "id": "48b517a409b5f4cf",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Ciberseguridad/Maquinas/Maquina - Jerry/Pasted image 20250322163216.png"
+                "file": "Ciberseguridad/Maquinas/Maquina - Jerry/Maquina - Jerry (Pivoting).md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250322163216"
+              "icon": "lucide-file",
+              "title": "Maquina - Jerry (Pivoting)"
             }
           },
           {
@@ -189,9 +191,10 @@
   },
   "active": "792cd74187e25d77",
   "lastOpenFiles": [
+    "Pasted.md",
     "Ciberseguridad/Maquinas/Maquina - Jerry/Maquina - Jerry (Pivoting).md",
+    "Ciberseguridad/Imagenes/Pasted image 20250322163216.png",
     "Ciberseguridad/Maquinas/Maquina - Jerry",
-    "Ciberseguridad/Maquinas/Maquina - Jerry/Pasted image 20250322163216.png",
     "Pasted image 20250322162551.png",
     "Pasted image 20250322162953.png",
     "peo.md",
