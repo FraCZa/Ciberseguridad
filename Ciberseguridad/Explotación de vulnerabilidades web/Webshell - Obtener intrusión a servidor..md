@@ -3,9 +3,13 @@
 
 - Estamos nuevamente en un login web.
 - Vamos a registrarnos
-![[Pasted image 20241219131801.png]]
+
+![](../Imagenes/Pasted%20image%2020241219131801.png)
+
 - Ya dentro tenemos donde subir un archivo.
-![[Pasted image 20241219131909.png]]
+
+![](../Imagenes/Pasted%20image%2020241219131909.png)
+
 - Vamos a crear un archivo .php
 ![[Pasted image 20241219132006.png]]
 - Vamos a ingresar este comando en el archivo ya creado.
