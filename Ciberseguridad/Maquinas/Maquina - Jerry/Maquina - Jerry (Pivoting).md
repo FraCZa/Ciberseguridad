@@ -7,7 +7,7 @@ Port: 8080
 ![](../../Imagenes/Pasted%20image%2020250322165238.png)
 - Sabemos que por lo general cuando no se configura bien, Tomcat viene con usuarios predefinidos, vamos a probar cada usuario
 - Las credenciales eran, ==tomcat:s3cret==.
-![[Pasted image 20250317175955.png]]
+![](../../Imagenes/Pasted%20image%2020250317175955.png)
 - Tenemos como subir un archivo para hacer una reverse.
 - Vamos a hacer un payload con msfvenom.
 ```
