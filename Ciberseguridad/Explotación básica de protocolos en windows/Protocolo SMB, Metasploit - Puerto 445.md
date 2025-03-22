@@ -29,14 +29,18 @@ smbclient -L (IP_VICTIMA) -U '(USUARIO)'
 ```
 smbmap -H (IP_VICTIMA) -u '(USUARIO)' -p '(CONTRASEÑA)'
 ```
-![[Pasted image 20241221153310.png]]
+
+![](../Imagenes/Pasted%20image%2020241221153310.png)
+
 - Solo tenemos permiso en ==Users==.
 - Ahora como podemos entrar en el recurso compartido?
 	- Usamos ==smbclient==.
 ```
 smbclient -U '(USUARIO)' //(IP_VICTIMA)/(NOMBRE_RECURSO)
 ```
-![[Pasted image 20241221153722.png]]
+
+![](../Imagenes/Pasted%20image%2020241221153722.png)
+
 - ya estamos dentro.
 
 ==EXPLOTACIÓN BÁSICA CON METASPLOIT==
@@ -47,16 +51,24 @@ smbclient -U '(USUARIO)' //(IP_VICTIMA)/(NOMBRE_RECURSO)
 ```
 use auxiliary/scanner/smb/smb_login
 ```
-![[Pasted image 20241221160050.png]]
+
+![](../Imagenes/Pasted%20image%2020241221160050.png)
+
 - vamos a configurarlo con el comando `show options`
 - Configuramos el ==RHOSTS== con la IP victima.
 - Se recomienda quitar ==VERBOSE== , para que el ataque sea mas rápido.
-![[Pasted image 20241221160608.png]]
+
+![](../Imagenes/Pasted%20image%2020241221160608.png)
+
 - Estas opciones son por si tenemos el usuario y la contraseña (que si sabemos), pero solo vamos a rellenar el del usuario para que se nos haga fuerza bruta en password.
-![[Pasted image 20241221160755.png]]
+
+![](../Imagenes/Pasted%20image%2020241221160755.png)
+
 - Cargamos el diccionario que vamos a utilizar en ==PASS_FILE==
 - Hacemos run
-![[Pasted image 20241221160939.png]]
+
+![](../Imagenes/Pasted%20image%2020241221160939.png)
+
 - Tenemos la contraseña.
 
 ==METASPLOIT CON PSEXEC==
@@ -66,10 +78,16 @@ use auxiliary/scanner/smb/smb_login
 ```
 use exploit/windows/smb/psexec
 ```
-![[Pasted image 20241221162311.png]]
+
+![](../Imagenes/Pasted%20image%2020241221162311.png)
+
 - Vamos a configurarlo.
-![[Pasted image 20241221162340.png]]
+
+![](../Imagenes/Pasted%20image%2020241221162340.png)
+
 - Como ya tenemos todas las credenciales, vamos a rellenar ==RHOSTS==, ==SMBUser== y ==SMBPass==.
 - Lo ejecutamos con run.
 - En este caso no se pudo ya que no esta habilitado, pero puede que si lo este en el examen.
-![[Pasted image 20241221162651.png]]
+
+![](../Imagenes/Pasted%20image%2020241221162651.png)
+

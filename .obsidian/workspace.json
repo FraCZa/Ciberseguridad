@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ciberseguridad/Explotación básica de protocolos en windows/Protocolo SMB, Metasploit - Puerto 445.md",
+                "file": "Ciberseguridad/Explotación básica de protocolos en windows/RPCCLIENT - Enumeración de usuarios SAMBA.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Protocolo SMB, Metasploit - Puerto 445"
+              "title": "RPCCLIENT - Enumeración de usuarios SAMBA"
             }
           },
           {
@@ -191,6 +191,7 @@
   },
   "active": "48b517a409b5f4cf",
   "lastOpenFiles": [
+    "Ciberseguridad/Explotación básica de protocolos en windows/Protocolo SMB, Metasploit - Puerto 445.md",
     "Ciberseguridad/Explotación básica de protocolos en windows/Protocolo RDP (3389) en Windows - Enumeración básica del sistema..md",
     "Ciberseguridad/Explotación básica de protocolos en windows/HOTFIXES - Enumeración en Windows..md",
     "Ciberseguridad/Escalada de privilegios + Post explotación/SUID - Escalada de privilegios en Linux..md",
@@ -217,7 +218,6 @@
     "Ciberseguridad/Resumen/Análisis de Tráfico y Archivos..md",
     "Ciberseguridad/Otros/Primeros pasos tras la intrusión. (Tratamiento de la TTY).md",
     "Ciberseguridad/Paginas/Pagina.md",
-    "Ciberseguridad/Otros/Actualizaciones.md",
     "Ciberseguridad/Imagenes/Pasted image 20250317175955.png",
     "Ciberseguridad/Imagenes/Pasted image 20250322165238.png",
     "Ciberseguridad/Imagenes/Pasted image 20250322164618.png",

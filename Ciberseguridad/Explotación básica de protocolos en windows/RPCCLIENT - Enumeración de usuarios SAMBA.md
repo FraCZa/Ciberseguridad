@@ -1,30 +1,39 @@
 - SAMBA también corre por el puerto 445, este protocolo permite la comunicación de sistemas operativos que no sean windows puedan comunicarse con el puerto SMB.
 
 - Escaneamos la maquina victima y nos sale el puerto 445 abierto además de ==SAMBA== .
-![[Pasted image 20241221164750.png]]
+
+![](../Imagenes/Pasted%20image%2020241221164750.png)
+
 - En este caso tenemos una maquina Linux con puerto 445 ==SAMBA== abierto para poder comunicarse con Sistemas operativos Windows.
 - Como no tenemos credenciales podemos enumerarla con la herramienta ==RPCCLIENT==, utilizando el siguiente comando:
 ```
 rpcclient -U "" -N (IP_VICTIMA)
 ```
 ==LO QUE VIENE DESPUES DE -U ES EL USUARIO, PERO LO DEJAMOS BASIO PORQUE NO SABEMOS CUAL ES==
-![[Pasted image 20241221165144.png]]
+
+![](../Imagenes/Pasted%20image%2020241221165144.png)
+
 - Como podemos ver nos direcciona una especia de lugar para poder ingresar comandos de ==rpcclient==.
 - Debemos conocer 3 comandos que nos van a servir para enumerar y obtener información:
 ```
 srvinfo
 ```
-![[Pasted image 20241221165327.png]]
+
+![](../Imagenes/Pasted%20image%2020241221165327.png)
+
 ```
 querydispinfo
 ```
-![[Pasted image 20241221165401.png]]
+
+![](../Imagenes/Pasted%20image%2020241221165401.png)
+
 - Aquí encontramos 2 usuarios: ==ken== y ==takeshi==.
 	- Ya con esto podemos hacer fuerza bruta.
 ```
 enumdomusers
 ```
 ![[Pasted image 20241221165541.png]]
+![](../Imagenes/Pasted%20image%2020241221165541.png)
 - También es un comando que nos muestra usuarios, por si el comando anterior no nos arroja uno.
 - Y si aun no nos arroja uno usamos el siguiente comando con ==nmap==.
 ```
