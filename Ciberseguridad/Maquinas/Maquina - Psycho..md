@@ -30,26 +30,42 @@ wfuzz -c --hc=404 --hW 169 -t 200 -w /usr/share/wordlists/dirbuster/directory-li
 
 - 
 - Tenemos un nuevo directorio, "secret", ahora para agregarlo, tenemos que cambiarlo en donde pusimos la palabra FUZZ(?secret=../../../../........)
-![[Pasted image 20250303164
+
 ![](../Imagenes/Pasted%20image%2020250303164348.png)
-![[Pasted image 20250303164402.png]]
+
+
+![](../Imagenes/Pasted%20image%2020250303164402.png)
+
 - Tenemos 2 usuarios , vaxei y luisillo.
 - Podemos probar con fuerza bruta pero no encontramos nada.
 - Ya que sabemos que podemos ver directorios con la URL vamos a ver si podemos sacar la id_rsa de vaxei, para eso despues de los ../../../ ponemos : ==/home/vaxei/.ssh/id_rsa==.
-![[Pasted image 20250303164705.png]]
-![[Pasted image 20250303164720.png]]
+
+![](../Imagenes/Pasted%20image%2020250303164705.png)
+
+
+![](../Imagenes/Pasted%20image%2020250303164720.png)
+
 - Tenemos una key, esta la copiamos y creamos un archivo id_rsa que la usaremos para ingresar por el puerto ssh.
 - Pero antes hay que darle autorización 600.
-![[Pasted image 20250303165027.png]]
+
+![](../Imagenes/Pasted%20image%2020250303165027.png)
+
 - Ya estamos dentro.
-- Si usamos el comanod `sudo -l`
-![[Pasted image 20250303165547.png]]
+- Si usamos el comando `sudo -l`
+
+![](../Imagenes/Pasted%20image%2020250303165547.png)
+
 - Nos sale que el usuario puede utilizar el comando perl como root, su buscamos el binario en gtfobins nos saldra lo siguiente:
-![[Pasted image 20250303165700.png]]
+
+![](../Imagenes/Pasted%20image%2020250303165700.png)
+
 - Ingresamos ese comando y podemos ser root. 
-- Pero no olvidemos que tenemos que usar el el comando que puede usar luisillo como root, quedaria asi:
+- Pero no olvidemos que tenemos que usar el el comando que puede usar luisillo como root, quedaría asi:
 ```
 sudo -u luisillo /usr/bin/perl -e 'exec "/bin/sh";'
 ```
-![[Pasted image 20250303165926.png]]
+
+
+![](../Imagenes/Pasted%20image%2020250303165926.png)
+
 - Ya somos root.

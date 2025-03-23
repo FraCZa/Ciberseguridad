@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ciberseguridad/Maquinas/Maquina - Psycho..md",
+                "file": "Ciberseguridad/Maquinas/Maquina - Whereismywebshell.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Maquina - Psycho."
+              "title": "Maquina - Whereismywebshell"
             }
           }
         ]
@@ -181,6 +181,10 @@
   },
   "active": "459507d0c1add4f6",
   "lastOpenFiles": [
+    "Ciberseguridad/Maquinas/Maquina - Walkingcms..md",
+    "Ciberseguridad/Maquinas/Maquina - Verdejo.md",
+    "Ciberseguridad/Maquinas/Maquina - Vendetta.md",
+    "Ciberseguridad/Maquinas/Maquina - Psycho..md",
     "Ciberseguridad/Maquinas/Maquina - Pequeñas mentirosas..md",
     "Ciberseguridad/Maquinas/Maquina - Nodeclimb.md",
     "Ciberseguridad/Maquinas/Maquina - Mirame..md",
@@ -203,10 +207,6 @@
     "Ciberseguridad/Hacking Entornos CMS/DRUPAL - HACKING.md",
     "Ciberseguridad/Explotación de vulnerabilidades y ataques de fuerza bruta/Metasploit - Explotación EternalBlue en Windows , Linux.md",
     "Ciberseguridad/Explotación de vulnerabilidades y ataques de fuerza bruta/Hydra , John The Ripper.md",
-    "Ciberseguridad/Maquinas/MR. Robot - Hacking wordpress + Escalada de privilegios..md",
-    "Ciberseguridad/Maquinas/Year of the Rabbit..md",
-    "Ciberseguridad/Maquinas/Skynet - SMBclient.md",
-    "Ciberseguridad/Maquinas/Maquina - Whereismywebshell.md",
     "Ciberseguridad/Imagenes/Pasted image 20241213190337.png.~tmp",
     "Ciberseguridad/Imagenes/Pasted image 20241212203537.png.~tmp",
     "Ciberseguridad/Imagenes/Pasted image 20241214181500.png.~tmp",
