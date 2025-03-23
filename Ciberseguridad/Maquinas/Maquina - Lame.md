@@ -7,30 +7,46 @@ Port: 139,21,22,445,3632
 ```
 rpcclient -U "" -N (IP_VICTIMA)
 ```
-![[Pasted image 20250317183214.png]]
+
+![](../Imagenes/Pasted%20image%2020250317183214.png)
+
 - Nos redirecciona a un lugar donde podemos ejecutar comandos.
 - No encontramos nada de utilidad, vamos a usar el comando ==smbnap== para ver si encontramos algún directorio
 ```
 smbmap -H (IP_VICTIMA)
 ```
-![[Pasted image 20250317183630.png]]
+
+![](../Imagenes/Pasted%20image%2020250317183630.png)
+
 - Vemos que podemos leer y escribir en /tmp, para ingresar usamos el siguiente comando.
 ```
 smbclient -N //(IP_VICTIMA/tmp)
 ```
-![[Pasted image 20250317183812.png]]
+
+![](../Imagenes/Pasted%20image%2020250317183812.png)
+
 - Pero no hay nada de interés
-![[Pasted image 20250317183916.png]]
+
+![](../Imagenes/Pasted%20image%2020250317183916.png)
+
 - Vamos a ver si Samba tiene una vulnerabilidad.
 - Sabemos que la version de samba es 3.0.20
 ```
 searchsploit "Samba 3.0.20"
 ```
-![[Pasted image 20250317184250.png]]
+
+![](../Imagenes/Pasted%20image%2020250317184250.png)
+
 - la segunda opción nos funciona, vamos a abrir metasploit
-![[Pasted image 20250317184421.png]]
+
+![](../Imagenes/Pasted%20image%2020250317184421.png)
+
 - Usamos este y lo configuramos.
-![[Pasted image 20250317184540.png]]
+
+![](../Imagenes/Pasted%20image%2020250317184540.png)
+
 - Lo ejecutamos.
-![[Pasted image 20250317184818.png]]
+
+![](../Imagenes/Pasted%20image%2020250317184818.png)
+
 - Estamos dentro como root.

