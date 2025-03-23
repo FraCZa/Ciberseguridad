@@ -35,7 +35,10 @@ wfuzz -c -t 200 --hl=0 -w /usr/share/wordlists/seclists/Discovery/Web-Content/di
 ![](../Imagenes/Pasted%20image%2020250303184211.png)
 
 - Pero las & hay que cambiarlas por %26 para que sean reconocidas en la URL.
-![[Pasted image 20250303184232.png]]
+
 ![](../Imagenes/Pasted%20image%2020250303184232.png)
+
 - Ya estamos dentro.
-![[Pasted image 20250303184517.png]]
+
+![](../Imagenes/Pasted%20image%2020250303184517.png)
+

@@ -1,6 +1,8 @@
 - Empezamos haciendo nmap.
 - Tenemos los siguientes puertos abiertos:
-![[Pasted image 20250217171613.png]]
+
+![](../Imagenes/Pasted%20image%2020250217171613.png)
+
 - Vemos que tiene el puerto 80 HTTP:
 ![[Pasted image 20250217171936.png]]
 - Solo una pagina Apache.
