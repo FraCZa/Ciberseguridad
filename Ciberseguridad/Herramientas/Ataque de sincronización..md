@@ -8,14 +8,18 @@
 - Si usamos ==Burp Suite== podemos ver que el método de el login es ==POST==.
 	- POST---> Método HTTP utilizado para enviar datos al servidor.
 		- Se utiliza principalmente para enviar datos desde el cliente al servidor. Esto es común en formularios web donde ingresas datos como tu nombre, dirección, etc.
-![[Pasted image 20250130191701.png]]
+
+![](../Imagenes/Pasted%20image%2020250130191701.png)
+
 - Como sabemos que es ==POST== podemos hacer una solicitud ==CURL==
 	- CURL(cliente URL)---> Herramienta que sirve para transmitir datos a o desde un servidor utilizando varios protocolos. Se utiliza principalmente para interactuar con servidores web.
 		- Se puede utilizar para hacer solicitudes GET, ==POST==, PUT, DELETE y otros tipos de solicitudes HTTP.
 		- Se puede descargar archivos desde un servidor remoto con CURL.
 		- Permite subir archivos a un servidor.
 - Si queremos verificar cuanto tiempo se demora en reacción con credenciales incorrecta, tenemos que crear un ==script== en Python.
-![[Pasted image 20250130195620.png]]
+
+![](../Imagenes/Pasted%20image%2020250130195620.png)
+
 - ==import==: Se importa las bibliotecas `request` y `time`.
 	- `request`---> Realiza solicitudes HTTP.
 	- `time`---> Es para medir el tiempo de ejecución.
@@ -25,7 +29,9 @@
 - ==r==: Se realiza una solicitud POST a la URL definida, enviando los datos de inicio de sesión. La respuesta de la solicitud se almacena en la variable ==r==.
 - ==print==: Se calcula el tiempo transcurrido desde que se almacenó `startTime` y se imprime en la consola.
 - Lo ejecutamos.
-![[Pasted image 20250130195639.png]]
+
+![](../Imagenes/Pasted%20image%2020250130195639.png)
+
 - Ahora vamos a hacerlo nuevamente pero con el usuario correcto.
 ![[Pasted image 20250130195750.png]]
 - Con esto reafirmamos lo que ya sabemos.
