@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ciberseguridad/Maquinas/hash-identifier, hashcat - Para crackear los hash. (Cyborg).md",
+                "file": "Ciberseguridad/Maquinas/Maquina - Consolelog.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "hash-identifier, hashcat - Para crackear los hash. (Cyborg)"
+              "title": "Maquina - Consolelog"
             }
           }
         ]
@@ -181,6 +181,8 @@
   },
   "active": "459507d0c1add4f6",
   "lastOpenFiles": [
+    "Ciberseguridad/Maquinas/Maquina - Buscalove.md",
+    "Ciberseguridad/Maquinas/hash-identifier, hashcat - Para crackear los hash. (Cyborg).md",
     "Ciberseguridad/Imagen/Binwalk (png), STEGHIDE (jpg).md",
     "Ciberseguridad/Herramientas/NIKTO.md",
     "Ciberseguridad/Herramientas/Netexec.md",
@@ -205,8 +207,6 @@
     "Ciberseguridad/Maquinas/Maquina - Nodeclimb.md",
     "Ciberseguridad/Maquinas/Maquina - Mirame..md",
     "Ciberseguridad/Maquinas/Maquina - Library.md",
-    "Ciberseguridad/Maquinas/Maquina - Legacy.md",
-    "Ciberseguridad/Maquinas/Maquina - Lame.md",
     "Ciberseguridad/Imagenes/Pasted image 20241213190337.png.~tmp",
     "Ciberseguridad/Imagenes/Pasted image 20241212203537.png.~tmp",
     "Ciberseguridad/Imagenes/Pasted image 20241214181500.png.~tmp",

@@ -2,14 +2,21 @@
 kali
 Port: 80, 3000, 5000.
 - No encontramos nada interesante en las paginas web, asi que vamos a hacer Fuzzing.
-![[Pasted image 20250306174746.png]]
+
+![](../Imagenes/Pasted%20image%2020250306174746.png)
+
 - El que nos interesa es el directorio /backend.
-![[Pasted image 20250306174816.png]]
+
+![](../Imagenes/Pasted%20image%2020250306174816.png)
+
 - Buscamos informacion valiosa.
 - En server.js encontramos una contraseña:
-![[Pasted image 20250306174859.png]]
+
+![](../Imagenes/Pasted%20image%2020250306174859.png)
+
 - Vamos a hacer fuerza bruta para encontrar el usuario.
-![[Pasted image 20250306180452.png]]
+
+![](../Imagenes/Pasted%20image%2020250306180452.png)
 - Encontramos nuestro usuario, vamos a ingresar por el puerto 5000 que en este caso es el ssh.
 ![[Pasted image 20250306180554.png]]
 - Especificamos que el puerto es el 5000.

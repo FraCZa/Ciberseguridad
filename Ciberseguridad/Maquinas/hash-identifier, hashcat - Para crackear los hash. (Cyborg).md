@@ -61,19 +61,31 @@ hashcat -a 0 -m (MODULO) (NOMBRE_ARCHIVO) /usr/share/wordlists/rockyou.txt
 ![](../Imagenes/Pasted%20image%2020250124174926.png)
 
 - En este caso tenemos un error porque hashcat utiliza la tarjeta grafica del equipo, en este caso como estoy en un MV no puedo ejecutarlo pero si lo podria hacer en una maquina principal con Linux. Así que, vamos a utilizar john.
+
 ![](../Imagenes/Pasted%20image%2020250124175506.png)
+
 - Nos sale este error, detecta que el hash es ==md5crupt==, pero la cadena también se reconoce como ==md5crypt-long==. entonces quedaría asi el comando:
 ```
 john --format=md5crypt-long --wordlist=/usr/share/wordlists/rockyou.txt hash
 ```
 - Nos da como contraseña ==squidward==
 - Ahora podemos utilizarla para montar el repositorio que descomprimimos. 
-![[Pasted image 20250124180016.png]]
-![[Pasted image 20250124180034.png]]
+
+![](../Imagenes/Pasted%20image%2020250124180016.png)
+
+
+![](../Imagenes/Pasted%20image%2020250124180034.png)
+
 - Ahí esta.
-![[Pasted image 20250124180116.png]]
+
+![](../Imagenes/Pasted%20image%2020250124180116.png)
+
 - Teniendo ya esto, vamos  a investigar los .txt
-![[Pasted image 20250124180230.png]]
+
+![](../Imagenes/Pasted%20image%2020250124180230.png)
+
 - Tenemos credencial para entrar por el puerto 22.
-![[Pasted image 20250124180316.png]]
+
+![](../Imagenes/Pasted%20image%2020250124180316.png)
+
 - Escalamos credencial y listo.
