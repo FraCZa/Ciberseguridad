@@ -12,7 +12,10 @@
 - El comando es:
 
 `enum4linux -a (IP) | tee enum4linux.log`
-![[Pasted image 20250113174954.png]]
+
+
+![](../Imagenes/Pasted%20image%2020250113174954.png)
+
 
 ## LinPEAS (Linux Privilege Escalation Awesome Script)
 
@@ -26,25 +29,35 @@
 - Vamos a copiar el código de este script de la pagina: [https://github.com/Cerbersec/scripts/blob/master/linux/linpeas.sh](https://github.com/Cerbersec/scripts/blob/master/linux/linpeas.sh)
 - Creamos una carpeta donde guardaremos nuestro fichero
 - Dentro nuestro fichero
-![[Pasted image 20250113174224.png]]
+
+![](../Imagenes/Pasted%20image%2020250113174224.png)
+
 - Pegamos el script y guardamos
-![[Pasted image 20250113174251.png]]
+
+![](../Imagenes/Pasted%20image%2020250113174251.png)
+
 `#Guardamos escribiendo :wq`
 
 - Le damos permiso de ejecución (+x)
 - Ejecutamos:
-![[Pasted image 20250113174316.png]]
+
+![](../Imagenes/Pasted%20image%2020250113174316.png)
+
 - Ejemplo de comando para usarlo:
 - Primero debemos cargar nuestro linpeas a la maquina victima
-![[Pasted image 20250113174357.png]]
-- En la maquina victima le vamos a dar permiso para ajecutarse
+
+![](../Imagenes/Pasted%20image%2020250113174357.png)
+
+- En la maquina victima le vamos a dar permiso para ejecutarse
     
 - Ahora ejecutamos con el siguiente comando:
     
     - `./linpeash.sh | tee linlog.txt`
     
     `#Se ejecuta linpeas y se guarda en un archivo llamado "linlog.txt"`
-![[Pasted image 20250113174434.png]]
+
+![](../Imagenes/Pasted%20image%2020250113174434.png)
+
 ## Significado de cada color
 
 - RED/YELLOW → Vectores de escalada de privilegios.
@@ -58,19 +71,30 @@
 - LightMangenta → Señala tu propio nombre de usuario.
 
 ==Binarios==
-![[Pasted image 20250113174506.png]]
+
+
+![](../Imagenes/Pasted%20image%2020250113174506.png)
+
 - Como podemos ver, tenemos bin/ sudo. Podemos usar `sudo -l`
 - Si seguimos investigando podemos encontrar una `key`
-![[Pasted image 20250113174526.png]]
+
+![](../Imagenes/Pasted%20image%2020250113174526.png)
+
 - La encontramos
-![[Pasted image 20250113174552.png]]
+
+![](../Imagenes/Pasted%20image%2020250113174552.png)
+
 - Vemos su contenido
-![[Pasted image 20250113174613.png]]
+
+![](../Imagenes/Pasted%20image%2020250113174613.png)
+
 - Copiamos la key
-![[Pasted image 20250113174630.png]]
+
+![](../Imagenes/Pasted%20image%2020250113174630.png)
+
 - Al crear la llave y ejecutarla, si nos pide la contraseña es porque algo salió mal.
 - Para eso vamos a descifrar la contraseña usando una herramienta de cracking de contraseña
-- Para descargar esta herramienta clonamo el git:
+- Para descargar esta herramienta clonamos el git:
 
 `git clone <https://github.com/openwall/john.git`>
 
@@ -85,9 +109,15 @@
 `sudo apt-get install john`
 
 - Usamos el siguiente comando para codificar la `key` y pasarla a otro archivo `.txt`
-![[Pasted image 20250113174651.png]]
+
+![](../Imagenes/Pasted%20image%2020250113174651.png)
+
 - Para hacerle fuerza bruta usamos el comando
-![[Pasted image 20250113174716.png]]
+
+![](../Imagenes/Pasted%20image%2020250113174716.png)
+
 - Y entramos:
-![[Pasted image 20250113174735.png]]
+
+![](../Imagenes/Pasted%20image%2020250113174735.png)
+
 #-i es para usar la key

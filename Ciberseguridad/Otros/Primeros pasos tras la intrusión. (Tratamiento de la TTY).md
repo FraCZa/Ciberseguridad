@@ -8,7 +8,9 @@
 script /dev/null -c bash
 ```
 - al ejecutar este comando conseguimos un pront:
-![[Pasted image 20241219130509.png]]
+
+![](../Imagenes/Pasted%20image%2020241219130509.png)
+
 - Luego apretamos `ctrl + z`
 - Ponemos a continuación:
 ```
