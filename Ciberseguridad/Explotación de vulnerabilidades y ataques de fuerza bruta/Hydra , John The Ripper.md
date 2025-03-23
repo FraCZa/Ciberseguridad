@@ -183,30 +183,43 @@ tac /usr/share/wordlists/rockyou.txt > rockyou_invertido.txt
 - Suele suceder que cuando se utiliza el comando `tac`, al momento de leer el diccionario abra un error, este error se genera porque dentro de la lista se generan espacios.
 
 ![](../Imagenes/Pasted%20image%2020241213181431.png)
+
 - Para solucionar esto, vamos a eliminar la primera línea, y eliminar las letras y símbolos amarillos de las otras líneas.
-![[Pasted image 20241213181556.png]]
+
+![](../Imagenes/Pasted%20image%2020241213181556.png)
+
 - Ahora usamos el siguiente comando para eliminar los espacios:
 ```
 cat rockyou_invertido.txt | tr -d ' ' > diccionario_sin_espacios.txt
 ```
 - Ya con esto listo podemos hacer el ataque de fuerza bruta utilizando el diccionario sin espacio.
-![[Pasted image 20241213181937.png]]
+
+![](../Imagenes/Pasted%20image%2020241213181937.png)
+
 - Y listo! se demoro mucho menos.
-![[Pasted image 20241213182048.png]]
+
+![](../Imagenes/Pasted%20image%2020241213182048.png)
+
 - Ahora, para logearnos en el MySQL debemos usar el siguiente código:
 ```
 mysql -h (IP_VICTIMA) -u (USUARIO) -p(CONTRASEÑA)
 ```
-![[Pasted image 20241213182307.png]]
+
+![](../Imagenes/Pasted%20image%2020241213182307.png)
+
 - Si nos sale este error:
-![[Pasted image 20241213182517.png]]
+
+![](../Imagenes/Pasted%20image%2020241213182517.png)
+
 - Es porque MySQL no confía en un certificado autofirmado en la cadena de certificados.
 - Usamos el siguiente código para desactivarlo:
 ```
 --ssl-mode=DISABLED
 ```
 - Este código va al final.
-![[Pasted image 20241213182834.png]]
+
+![](../Imagenes/Pasted%20image%2020241213182834.png)
+
 - Si sigue tirando error, vamos a probar con los siguiente:
 - Vamos a abrir el archivo de configuración.
 ```
@@ -217,7 +230,9 @@ sudo nano /etc/mysql/my.cnf
 ssl-mode=DISABLED
 ```
 - Guardamos y volvemos  a probar
-![[Pasted image 20241213183329.png]]
+
+![](../Imagenes/Pasted%20image%2020241213183329.png)
+
 
 ==FUERZA BRUTA EN LOCAL CON JOHN THE RIPPER
 
@@ -253,14 +268,18 @@ ssl-mode=DISABLED
 ```
 python -m http.server 80
 ```
-![[Pasted image 20241213190104.png]]
+
+![](../Imagenes/Pasted%20image%2020241213190104.png)
+
 - En Kali usamos el siguiente comando:
 ```
 wget (IP_DE_LA_MAQUINA_QUE_TIENE_EL_ARCHIVO)/(NOMBRE_DEL_ARCHIVO)
 ```
-![[Pasted image 20241213190337.png]]
+
+![](../Imagenes/Pasted%20image%2020241213190337.png)
+
 - Ya descargado vamos a craquearlo.
-- se usa el siguiente codigo:
+- se usa el siguiente código:
 ```
 zip2john (NOMBRE_ARCHIVO) > (NUEVO_NOMBRE)
 ```
