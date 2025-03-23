@@ -76,20 +76,31 @@ use multi/manage/autoroute
 
 - Nos pide la SESSION.
 - Lo ingresamos y ejecutamos run.
-![[Pasted image 20250112162557.png]]
+
+![](../Imagenes/Pasted%20image%2020250112162557.png)
+
 - Ya tenemos localizada la IP de la maquina victima y ahora el trafico enrutado.
 - Ahora hacemos un escaneo de puertos abiertos.
 ```
 use scanner/portscan/tcp
 ```
-![[Pasted image 20250112162730.png]]
+
+
+![](../Imagenes/Pasted%20image%2020250112162730.png)
+
 - Lo configuramos.
-![[Pasted image 20250112162756.png]]
+
+![](../Imagenes/Pasted%20image%2020250112162756.png)
+
 - Esto se parece mucho a usar nmap.
 - Ingresamos en RHOSTS la IP de la maquina victima que encontramos.
-![[Pasted image 20250112162933.png]]
+
+![](../Imagenes/Pasted%20image%2020250112162933.png)
+
 - Ejecutamos run.
-![[Pasted image 20250112163018.png]]
+
+![](../Imagenes/Pasted%20image%2020250112163018.png)
+
 - Ya sabemos que puertos atacar.
 - Vamos a ingresar por el puerto 80.
 - Vamos a utilizar otro modulo.
@@ -97,23 +108,38 @@ use scanner/portscan/tcp
 use post/windows/manage/portproxy
 ```
 - Este modulo es únicamente en WINDOWS
-![[Pasted image 20250112163229.png]]
+
+![](../Imagenes/Pasted%20image%2020250112163229.png)
+
 - Lo configuramos.
-![[Pasted image 20250112163245.png]]
+
+![](../Imagenes/Pasted%20image%2020250112163245.png)
+
 - Hay que llenar los ==CONNECT== y los ==LOCAL==.
 - En CONNECT_ADDRESS ---> IP VICTIMA.
 - CONNECT_PORT ---> El puerto que quiero atacar.
 - LOCAL_ADDRESS ---> 0.0.0.0
 - LOCAL_PORT ---> Puerto de donde queremos traernos el puerto que estamos atacando.
-![[Pasted image 20250112163719.png]]
+
+![](../Imagenes/Pasted%20image%2020250112163719.png)
+
 - Corroboramos.
-![[Pasted image 20250112163750.png]]
+
+![](../Imagenes/Pasted%20image%2020250112163750.png)
+
 - Nos faltaría ingresa la SESSION
-![[Pasted image 20250112163829.png]]
+
+![](../Imagenes/Pasted%20image%2020250112163829.png)
+
 - Ahora ejecutamos run.
-![[Pasted image 20250112163859.png]]
+
+![](../Imagenes/Pasted%20image%2020250112163859.png)
+
 - Ahora para poder acceder al puerto 80 de esa maquina?
 ```
 (IP_MAQUINA WINDOWS):(IP_DONDE TRAEMOS EL PUERTO)
 ```
-![[Pasted image 20250112164059.png]]
+
+
+![](../Imagenes/Pasted%20image%2020250112164059.png)
+
