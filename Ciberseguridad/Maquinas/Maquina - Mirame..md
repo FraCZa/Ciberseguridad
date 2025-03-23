@@ -44,29 +44,51 @@ sqlmap -u (URLS_CORRESPONDIENTE) --forms -D (NOMBRE_BASE_DATOS) -T (TABLA) -C(CO
 
 - No se conecto con ninguna credencial.
 - Pero la contraseña "directoriotravieso" sobre sale de todos, vamos a ver si no hay un directorio que se llame asi haciendo fuzzing.
+
 ![](../Imagenes/Pasted%20image%2020250310185550.png)
+
 - Encontramos un directorio.
-![[Pasted image 20250310185609.png]]
+
+![](../Imagenes/Pasted%20image%2020250310185609.png)
+
 - Encontramos una imagen, debe tener información importante.
-![[Pasted image 20250310185655.png]]
+
+![](../Imagenes/Pasted%20image%2020250310185655.png)
+
 - Vamos a descargarla.
 - Vamos a ver que información tiene con ==exiftool==.
 - No hay nada interesante, vamos a utilizar ==steghide==
-![[Pasted image 20250310190322.png]]
+
+![](../Imagenes/Pasted%20image%2020250310190322.png)
+
 - Vamos a tener que utilizar ==stegseek== para crackearlo.
-![[Pasted image 20250310190444.png]]
+
+![](../Imagenes/Pasted%20image%2020250310190444.png)
+
 - Vemos que la pass es chocolate, vamos a usar nuevamente ==steghide== para sacar lo que tiene dentro.
-![[Pasted image 20250310190606.png]]
+
+![](../Imagenes/Pasted%20image%2020250310190606.png)
+
 - Nos da un archivo .zip, vamos a descomprimirlo.
 - Pero nos pide otra contraseña y no chocolate asi que vamos a usar john para hacer fuerza bruta.
 - Vamos a usar ==zip2john== para hacerlo hash.
-![[Pasted image 20250310190858.png]]
+
+![](../Imagenes/Pasted%20image%2020250310190858.png)
+
 - Ahora hacemos fuerza bruta.
-![[Pasted image 20250310190945.png]]
+
+![](../Imagenes/Pasted%20image%2020250310190945.png)
+
 - Ahora si vamos a descomprimir.
-![[Pasted image 20250310191106.png]]
+
+![](../Imagenes/Pasted%20image%2020250310191106.png)
+
 - Tenemos nuestra credencial, vamos a entrar al puerto 22
-![[Pasted image 20250310191136.png]]
+
+![](../Imagenes/Pasted%20image%2020250310191136.png)
+
 - Vamos a escalar privilegios. 
 - No funciona el comando sudo -l , vamos  a escalar por SUID.
-![[Pasted image 20250310191324.png]]
+
+![](../Imagenes/Pasted%20image%2020250310191324.png)
+

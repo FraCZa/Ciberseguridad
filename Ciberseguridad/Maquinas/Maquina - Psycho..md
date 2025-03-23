@@ -2,14 +2,20 @@ Kali.
 
 - Esta maquina tiene el puerto 80 y 22 abierto.
 - Vamos a ver el puerto 80
-![[Pasted image 20250303161126.png]]
+
+![](../Imagenes/Pasted%20image%2020250303161126.png)
+
 - Vamos a buscar en el código fuente si encontramos algo.
-![[Pasted image 20250303161220.png]]
+
+![](../Imagenes/Pasted%20image%2020250303161220.png)
+
 - Encontramos esto en el código fuente, vamos a investigarlo después.
-- Vamos a hacer fuzzing por si encontramos algo.
-![[Pasted image 20250303161617.png]]
+- Vamos a hacer fuzzing por si encontramos algo:
+
+![](../Imagenes/Pasted%20image%2020250303161617.png)
+
 - No encontramos nada.
-- Pero sabemos que index es .php y que tenemos un ERROR en el código fuente, esto quiere decir que hay un error al llamar una pagina, vamos a usar ==wfuzz== para encontrar un parametro.
+- Pero sabemos que index es .php y que tenemos un ERROR en el código fuente, esto quiere decir que hay un error al llamar una pagina, vamos a usar ==wfuzz== para encontrar un parámetro.
 ```
 wfuzz -c --hc=404 --hW 169 -t 200 -w /usr/share/wordlists/dirbuster/directory-list-lowercase-2.3-medium.txt http://(IP_VICTIMA)/(DIRECTORIO)?FUZZ=../../../../../../../../etc/passwd
 ```
@@ -18,10 +24,14 @@ wfuzz -c --hc=404 --hW 169 -t 200 -w /usr/share/wordlists/dirbuster/directory-li
 - --hw 169 --> Oculta respuestas que contengan 169 palabras en el cuerpo de la respuesta.
 - -t 200 --> Establece numeros de hilos.
 - Si sale mucha información podemos poner el valor ==--hl 40==.
-- ==Lo que viene despues del directorio --> ?FUZZ lo usamos cuando tenemos un directorio .php y sabemos que por producto del ERROR encontrado en el codigo fuente  esto podria indircar que el servidor está manejando incorrectamente ciertas entradas==
-- ![[Pasted image 20250303164236.png]]
+- ==Lo que viene despues del directorio --> ?FUZZ lo usamos cuando tenemos un directorio .php y sabemos que por producto del ERROR encontrado en el código fuente  esto podria indicar que el servidor está manejando incorrectamente ciertas entradas==
+
+![](../Imagenes/Pasted%20image%2020250303164236.png)
+
+- 
 - Tenemos un nuevo directorio, "secret", ahora para agregarlo, tenemos que cambiarlo en donde pusimos la palabra FUZZ(?secret=../../../../........)
-![[Pasted image 20250303164348.png]]
+![[Pasted image 20250303164
+![](../Imagenes/Pasted%20image%2020250303164348.png)
 ![[Pasted image 20250303164402.png]]
 - Tenemos 2 usuarios , vaxei y luisillo.
 - Podemos probar con fuerza bruta pero no encontramos nada.
