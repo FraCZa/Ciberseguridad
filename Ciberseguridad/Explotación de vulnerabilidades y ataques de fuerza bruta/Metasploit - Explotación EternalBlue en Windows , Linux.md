@@ -56,11 +56,19 @@
 
 - Vamos nuevamente a Metasploit.
 - En este caso no nos encontró nada:
-![[Pasted image 20241212193733.png]]
+
+![](../Imagenes/Pasted%20image%2020241212193733.png)
+
 - Vamos a probar poniendo la versión del vsFTPd.
-![[Pasted image 20241212193856.png]]
+
+![](../Imagenes/Pasted%20image%2020241212193856.png)
+
 - Cargamos el sploit con el comando `use`  y lo configuramos con el comando `show options`.
-![[Pasted image 20241212194023.png]]
+
+![](../Imagenes/Pasted%20image%2020241212194023.png)
+
 - Usamos el comando `run` y ya estamos dentro:
-![[Pasted image 20241212194338.png]]
+
+![](../Imagenes/Pasted%20image%2020241212194338.png)
+
 
