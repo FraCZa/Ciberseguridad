@@ -191,28 +191,40 @@ use scanner/portscan/tcp
 ```
 portfwd add -l 222 -p 22 -r 10.10.10.7
 ```
-![[Pasted image 2025011218
+
+
 ![](../Imagenes/Pasted%20image%2020250112181114.png)
+
 - Ahora vamos a hacer un ssh (con los datos que ya conocíamos de esta maquina)
 ```
 ssh (usuario)@(IP_ATACANTE) -p (PUERTO_QUE_ESCOGIMOS)
 ```
-![[Pasted image 20250112181337.png]]
-![[Pasted image 20250112181402.png]]
+
+
+![](../Imagenes/Pasted%20image%2020250112181337.png)
+
+
+![](../Imagenes/Pasted%20image%2020250112181402.png)
+
 - Ahora vamos a traer el puerto 631
 ```
 portfwd add -l 5000 -p 631 -r 10.10.10.7
 ```
 - Si nos damos cuenta solo cambian los puertos.
-![[Pasted image 20250112181527.png]]
+
+![](../Imagenes/Pasted%20image%2020250112181527.png)
+
 - Si pongo en el URL del navegador:
 ```
 127.0.0.1:5000
 ```
-![[Pasted image 20250112181635.png]]
+
+
+![](../Imagenes/Pasted%20image%2020250112181635.png)
+
 - Estoy dentro.
 
-- Si quiero hacer un ataque con ==hydra== ocuparia el siguiente comando.
+- Si quiero hacer un ataque con ==hydra== ocuparía el siguiente comando.
 ```
 hydra -l (NOMBRE) -P /usr/share/wordlists/rockyou.txt ssh://127.0.0.1 -s 222
 ```

@@ -1,4 +1,4 @@
-10.10.10.3
+
 Linux
 Port: 139,21,22,445,3632
 - Tenemos 2 puertos que funcionan como ftp, 445 y 139 , pero primero vamos a ver que encontramos en el puerto 21.

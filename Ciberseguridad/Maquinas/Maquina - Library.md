@@ -1,4 +1,4 @@
-172.17.0.2
+
 Kali
 Port: 22, 80.
 - No encontramos nada interesante en la pagina web, asi que haremos fuzzing.

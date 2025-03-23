@@ -1,4 +1,4 @@
-172.17.0.2
+
 kali
 Port: 80, 3000, 5000.
 - No encontramos nada interesante en las paginas web, asi que vamos a hacer Fuzzing.

@@ -1,4 +1,4 @@
-10.10.10.4
+
 Windows
 Port:135,139,445
 - Nuevamente tenemos el puerto 445, vamos a ver que encontramos dentro.

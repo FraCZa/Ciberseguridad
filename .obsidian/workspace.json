@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ciberseguridad/Pivoting con metasploit/Pivoting en Linux.md",
+                "file": "Ciberseguridad/Maquinas/Year of the Rabbit..md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pivoting en Linux"
+              "title": "Year of the Rabbit."
             }
           }
         ]
@@ -181,12 +181,6 @@
   },
   "active": "459507d0c1add4f6",
   "lastOpenFiles": [
-    "Ciberseguridad/Pivoting con metasploit/Pivoting en entornos Windows..md",
-    "Ciberseguridad/Otros/Windows, enum4linux , LinPEAS.md",
-    "Ciberseguridad/Pivoting con metasploit/Que es el PIVOTING.md",
-    "Ciberseguridad/Pivoting con metasploit/Pivoting en Linux.md",
-    "Ciberseguridad/Otros/Primeros pasos tras la intrusión. (Tratamiento de la TTY).md",
-    "Ciberseguridad/Maquinas/Year of the Rabbit..md",
     "Ciberseguridad/Maquinas/Skynet - SMBclient.md",
     "Ciberseguridad/Maquinas/MR. Robot - Hacking wordpress + Escalada de privilegios..md",
     "Ciberseguridad/Maquinas/Maquina - Whereismywebshell.md",
@@ -204,6 +198,12 @@
     "Ciberseguridad/Maquinas/Maquina - Consolelog.md",
     "Ciberseguridad/Maquinas/Maquina - Buscalove.md",
     "Ciberseguridad/Maquinas/hash-identifier, hashcat - Para crackear los hash. (Cyborg).md",
+    "Ciberseguridad/Pivoting con metasploit/Pivoting en Linux.md",
+    "Ciberseguridad/Pivoting con metasploit/Que es el PIVOTING.md",
+    "Ciberseguridad/Pivoting con metasploit/Pivoting en entornos Windows..md",
+    "Ciberseguridad/Otros/Windows, enum4linux , LinPEAS.md",
+    "Ciberseguridad/Otros/Primeros pasos tras la intrusión. (Tratamiento de la TTY).md",
+    "Ciberseguridad/Maquinas/Year of the Rabbit..md",
     "Ciberseguridad/Imagen/Binwalk (png), STEGHIDE (jpg).md",
     "Ciberseguridad/Herramientas/NIKTO.md",
     "Ciberseguridad/Herramientas/Netexec.md",

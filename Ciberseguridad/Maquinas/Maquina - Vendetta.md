@@ -1,4 +1,4 @@
-172.17.0.2
+
 kali
 Port: 22, 80, 3306
 - Tenemos un puerto 3306 donde corre SQL pero antes de ver que podemos sacar de ahí, vamos a  hacer Fuzzing y revisar la pagina.
