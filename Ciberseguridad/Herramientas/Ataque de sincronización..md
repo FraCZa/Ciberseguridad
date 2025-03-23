@@ -33,13 +33,19 @@
 ![](../Imagenes/Pasted%20image%2020250130195639.png)
 
 - Ahora vamos a hacerlo nuevamente pero con el usuario correcto.
-![[Pasted image 20250130195750.png]]
+
+![](../Imagenes/Pasted%20image%2020250130195750.png)
+
 - Con esto reafirmamos lo que ya sabemos.
 - Ahora vamos a modificar el ==sprint== para saber que otros usuarios podemos encontrar en la pagina:
 - Lo agregamos debajo de ==URL==
-![[Pasted image 20250130200137.png]]
+
+![](../Imagenes/Pasted%20image%2020250130200137.png)
+
 - ==open("usr", "r")==: Este comando abre un archivo llamado "usr" en modo lectura ("r").
 - ==.readlines()== Este método lee todas las líneas del archivo y las devuelve como una lista de cadenas (strings), cada una representando una línea del archivo.
 - Ahora vamos a crear un bucle que nos permitirá usar cada nombre de usuario encontrado en la pagina.
-![[Pasted image 20250130204436.png]]
+
+![](../Imagenes/Pasted%20image%2020250130204436.png)
+
 

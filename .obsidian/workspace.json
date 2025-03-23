@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ciberseguridad/Herramientas/Ataque de sincronización..md",
+                "file": "Ciberseguridad/Maquinas/hash-identifier, hashcat - Para crackear los hash. (Cyborg).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ataque de sincronización."
+              "title": "hash-identifier, hashcat - Para crackear los hash. (Cyborg)"
             }
           }
         ]
@@ -181,6 +181,14 @@
   },
   "active": "459507d0c1add4f6",
   "lastOpenFiles": [
+    "Ciberseguridad/Imagen/Binwalk (png), STEGHIDE (jpg).md",
+    "Ciberseguridad/Herramientas/NIKTO.md",
+    "Ciberseguridad/Herramientas/Netexec.md",
+    "Ciberseguridad/Herramientas/Protocolo SNMP - Enumeración y explotación..md",
+    "Ciberseguridad/Herramientas/Msfvenom - Generar nuestros propios payloads.md",
+    "Ciberseguridad/Herramientas/FFUF.md",
+    "Ciberseguridad/Herramientas/EVIL_WINRM (CONECTARSE DE FORMA REMOTA A UN WINDOWS).md",
+    "Ciberseguridad/Herramientas/Ataque de sincronización..md",
     "Ciberseguridad/Hacking Entornos CMS/Hacking en Entornos WORDPRESS.md",
     "Ciberseguridad/Hacking Entornos CMS/DRUPAL - HACKING.md",
     "Ciberseguridad/Explotación de vulnerabilidades y ataques de fuerza bruta/Metasploit - Explotación EternalBlue en Windows , Linux.md",
@@ -199,14 +207,6 @@
     "Ciberseguridad/Maquinas/Maquina - Library.md",
     "Ciberseguridad/Maquinas/Maquina - Legacy.md",
     "Ciberseguridad/Maquinas/Maquina - Lame.md",
-    "Ciberseguridad/Maquinas/Maquina - Jerry (Pivoting).md",
-    "Ciberseguridad/Maquinas/Maquina - Consolelog.md",
-    "Ciberseguridad/Maquinas/Maquina - Buscalove.md",
-    "Ciberseguridad/Maquinas/hash-identifier, hashcat - Para crackear los hash. (Cyborg).md",
-    "Ciberseguridad/Imagen/Binwalk (png), STEGHIDE (jpg).md",
-    "Ciberseguridad/Herramientas/Protocolo SNMP - Enumeración y explotación..md",
-    "Ciberseguridad/Herramientas/NIKTO.md",
-    "Ciberseguridad/Herramientas/Netexec.md",
     "Ciberseguridad/Imagenes/Pasted image 20241213190337.png.~tmp",
     "Ciberseguridad/Imagenes/Pasted image 20241212203537.png.~tmp",
     "Ciberseguridad/Imagenes/Pasted image 20241214181500.png.~tmp",
