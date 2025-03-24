@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ciberseguridad/Herramientas/Ataque de sincronización..md",
+                "file": "Ciberseguridad/Otros/Primeros pasos tras la intrusión. (Tratamiento de la TTY).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ataque de sincronización."
+              "title": "Primeros pasos tras la intrusión. (Tratamiento de la TTY)"
             }
           },
           {
@@ -82,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "curl",
+                "query": "tty",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,7 +103,8 @@
               "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -210,9 +211,16 @@
   },
   "active": "1f391c8da66c31a8",
   "lastOpenFiles": [
-    "Ciberseguridad/Imagenes/Pasted image 20250324180856.png",
+    "Ciberseguridad/Imagenes/Pasted image 20250324181853.png",
+    "Ciberseguridad/Otros/Primeros pasos tras la intrusión. (Tratamiento de la TTY).md",
     "Ciberseguridad/Herramientas/Ataque de sincronización..md",
     "Maquina - Knife (HackTheBox).md",
+    "Ciberseguridad/Imagenes/Pasted image 20250324181648.png",
+    "Ciberseguridad/Imagenes/Pasted image 20250324181549.png",
+    "Ciberseguridad/Imagenes/Pasted image 20250324181356.png",
+    "Ciberseguridad/Imagenes/Pasted image 20250324181316.png",
+    "Ciberseguridad/Imagenes/Pasted image 20250324180943.png",
+    "Ciberseguridad/Imagenes/Pasted image 20250324180856.png",
     "Ciberseguridad/Maquinas/Maquina - Lame.md",
     "Ciberseguridad/Maquinas/Maquina - Legacy.md",
     "Ciberseguridad/Maquinas/Maquina - Jerry (Pivoting).md",
@@ -238,19 +246,12 @@
     "Ciberseguridad/Maquinas/Maquina - Mirame..md",
     "Ciberseguridad/Maquinas/Maquina - Library.md",
     "Ciberseguridad/Maquinas/hash-identifier, hashcat - Para crackear los hash. (Cyborg).md",
-    "Ciberseguridad/Pivoting con metasploit/Pivoting en Linux.md",
     "Ciberseguridad/Imagenes/Pasted image 20241213190337.png.~tmp",
     "Ciberseguridad/Imagenes/Pasted image 20241212203537.png.~tmp",
     "Ciberseguridad/Imagenes/Pasted image 20241214181500.png.~tmp",
     "Ciberseguridad/Imagenes/Pasted image 20241220153909.png.~tmp",
     "Ciberseguridad/Imagenes/Pasted image 20241211203258.png.~tmp",
     "Ciberseguridad/Imagenes/Pasted image 20250317175955.png",
-    "Ciberseguridad/Imagenes/Pasted image 20250322165238.png",
-    "Ciberseguridad/Imagenes/Pasted image 20250322164618.png",
-    "Ciberseguridad/Imagenes/Pasted image 20250322165042.png",
-    "Ciberseguridad/Imagenes/Pasted image 20250322164816.png",
-    "Ciberseguridad/Maquinas/Maquina - Jerry/Pasted image 20250322163216.png",
-    "Ciberseguridad/Imagenes/Pasted image 20250317174502.png",
     "Ciberseguridad/Maquinas/Maquina - Jerry",
     "Ciberseguridad/Resumen",
     "Ciberseguridad/Pivoting con metasploit",
