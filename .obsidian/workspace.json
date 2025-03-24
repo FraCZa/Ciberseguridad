@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maquina - Knife (HackTheBox).md",
+                "file": "Ciberseguridad/Maquinas/Maquina - Knife (HackTheBox).md",
                 "mode": "source",
                 "source": false
               },
@@ -103,8 +103,7 @@
               "title": "Marcadores"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -211,28 +210,28 @@
   },
   "active": "1f391c8da66c31a8",
   "lastOpenFiles": [
+    "Maquina - Validation (HackTheBox).md",
+    "Ciberseguridad/Maquinas/Maquina - Knife (HackTheBox).md",
+    "Ciberseguridad/Imagenes/Pasted image 20250324182151.png",
+    "Ciberseguridad/Imagenes/Pasted image 20250324182104.png",
+    "Ciberseguridad/Imagenes/Pasted image 20250324182048.png",
+    "Ciberseguridad/Imagenes/Pasted image 20250324181941.png",
     "Ciberseguridad/Imagenes/Pasted image 20250324181853.png",
     "Ciberseguridad/Otros/Primeros pasos tras la intrusión. (Tratamiento de la TTY).md",
     "Ciberseguridad/Herramientas/Ataque de sincronización..md",
-    "Maquina - Knife (HackTheBox).md",
     "Ciberseguridad/Imagenes/Pasted image 20250324181648.png",
     "Ciberseguridad/Imagenes/Pasted image 20250324181549.png",
     "Ciberseguridad/Imagenes/Pasted image 20250324181356.png",
     "Ciberseguridad/Imagenes/Pasted image 20250324181316.png",
     "Ciberseguridad/Imagenes/Pasted image 20250324180943.png",
-    "Ciberseguridad/Imagenes/Pasted image 20250324180856.png",
     "Ciberseguridad/Maquinas/Maquina - Lame.md",
     "Ciberseguridad/Maquinas/Maquina - Legacy.md",
     "Ciberseguridad/Maquinas/Maquina - Jerry (Pivoting).md",
     "Ciberseguridad/Maquinas/Maquina - Consolelog.md",
     "Ciberseguridad/Maquinas/Maquina - Buscalove.md",
     "Ciberseguridad/Otros/Windows, enum4linux , LinPEAS.md",
-    "Maquina - Validation (HackTheBox).md",
     "Ciberseguridad/Herramientas/NIKTO.md",
     "Ciberseguridad/Herramientas/FFUF.md",
-    "Ciberseguridad/Imagenes/Pasted image 20250324173043.png",
-    "Ciberseguridad/Imagenes/Pasted image 20250324172944.png",
-    "Ciberseguridad/Imagenes/Pasted image 20250324172326.png",
     "Ciberseguridad/Maquinas/Year of the Rabbit..md",
     "Ciberseguridad/Maquinas/Skynet - SMBclient.md",
     "Ciberseguridad/Maquinas/MR. Robot - Hacking wordpress + Escalada de privilegios..md",
@@ -251,7 +250,6 @@
     "Ciberseguridad/Imagenes/Pasted image 20241214181500.png.~tmp",
     "Ciberseguridad/Imagenes/Pasted image 20241220153909.png.~tmp",
     "Ciberseguridad/Imagenes/Pasted image 20241211203258.png.~tmp",
-    "Ciberseguridad/Imagenes/Pasted image 20250317175955.png",
     "Ciberseguridad/Maquinas/Maquina - Jerry",
     "Ciberseguridad/Resumen",
     "Ciberseguridad/Pivoting con metasploit",

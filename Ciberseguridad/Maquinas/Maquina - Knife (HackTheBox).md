@@ -18,3 +18,10 @@ Port: 22,80
 - Buscamos la primera flag.
 ![](Ciberseguridad/Imagenes/Pasted%20image%2020250324181853.png)
 - Ahora escalamos privilegios.
+- Podemos usar el domando sudo para escalar.
+![](Ciberseguridad/Imagenes/Pasted%20image%2020250324181941.png)
+![](Ciberseguridad/Imagenes/Pasted%20image%2020250324182048.png)
+- Ya somos root.
+![](Ciberseguridad/Imagenes/Pasted%20image%2020250324182104.png)
+- Vamos a buscar la ultima flag.
+![](Ciberseguridad/Imagenes/Pasted%20image%2020250324182151.png)
