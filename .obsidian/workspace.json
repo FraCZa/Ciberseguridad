@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ciberseguridad/Maquinas/Maquina - Knife (HackTheBox).md",
+                "file": "Ciberseguridad/Explotación de vulnerabilidades web/Wfuzz, DIRB, DIRSEARCH - Enumeración de subdominios.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Maquina - Knife (HackTheBox)"
+              "title": "Wfuzz, DIRB, DIRSEARCH - Enumeración de subdominios"
             }
           }
         ],
@@ -82,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tty",
+                "query": "admin",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,7 +103,8 @@
               "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -210,8 +211,9 @@
   },
   "active": "1f391c8da66c31a8",
   "lastOpenFiles": [
-    "Maquina - Validation (HackTheBox).md",
+    "Ciberseguridad/Hacking Entornos CMS/Hacking en Entornos WORDPRESS.md",
     "Ciberseguridad/Maquinas/Maquina - Knife (HackTheBox).md",
+    "Maquina - Validation (HackTheBox).md",
     "Ciberseguridad/Imagenes/Pasted image 20250324182151.png",
     "Ciberseguridad/Imagenes/Pasted image 20250324182104.png",
     "Ciberseguridad/Imagenes/Pasted image 20250324182048.png",
