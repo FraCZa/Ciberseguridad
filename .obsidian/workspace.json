@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ciberseguridad/Explotación básica de protocolos en windows/RPCCLIENT - Enumeración de usuarios SAMBA.md",
+                "file": "Ciberseguridad/Maquinas/Skynet - SMBclient.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "RPCCLIENT - Enumeración de usuarios SAMBA"
+              "title": "Skynet - SMBclient"
             }
           }
         ],
@@ -211,8 +211,8 @@
   },
   "active": "1f391c8da66c31a8",
   "lastOpenFiles": [
-    "Ciberseguridad/Maquinas/Skynet - SMBclient.md",
     "Ciberseguridad/Explotación básica de protocolos en windows/RPCCLIENT - Enumeración de usuarios SAMBA.md",
+    "Ciberseguridad/Maquinas/Skynet - SMBclient.md",
     "Ciberseguridad/Explotación básica de protocolos en windows/Protocolo SMB, Metasploit - Puerto 445.md",
     "Ciberseguridad/Hacking Entornos CMS/Hacking en Entornos WORDPRESS.md",
     "Ciberseguridad/Escalada de privilegios + Post explotación/SUID - Escalada de privilegios en Linux..md",
