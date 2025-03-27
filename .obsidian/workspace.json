@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ciberseguridad/Otros/Primeros pasos tras la intrusión. (Tratamiento de la TTY).md",
+                "file": "Ciberseguridad/Hacking Entornos CMS/Hacking en Entornos WORDPRESS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Primeros pasos tras la intrusión. (Tratamiento de la TTY)"
+              "title": "Hacking en Entornos WORDPRESS"
             }
           },
           {
@@ -41,16 +41,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ciberseguridad/Maquinas/Maquina - Mirame..md",
+                "file": "Ciberseguridad/Maquinas/Maquina - Buscalove.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Maquina - Mirame."
+              "title": "Maquina - Buscalove"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -82,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "wpsca",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,7 +103,8 @@
               "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -208,8 +209,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1f391c8da66c31a8",
+  "active": "ff44487d8ec243a0",
   "lastOpenFiles": [
+    "Ciberseguridad/Otros/Primeros pasos tras la intrusión. (Tratamiento de la TTY).md",
+    "Ciberseguridad/Maquinas/Maquina - Buscalove.md",
+    "Ciberseguridad/Hacking Entornos CMS/Hacking en Entornos WORDPRESS.md",
+    "Ciberseguridad/Maquinas/Maquina - Mirame..md",
     "Ciberseguridad/Maquinas/Maquina - Library.md",
     "Ciberseguridad/Maquinas/Maquina - Legacy.md",
     "Ciberseguridad/Maquinas/Maquina - Lame.md",
@@ -218,21 +223,18 @@
     "Ciberseguridad/Maquinas/Maquina - Consolelog.md",
     "Ciberseguridad/Explotación de vulnerabilidades web/Wireshark - Interceptar credenciales de protocolos vulnerables..md",
     "Ciberseguridad/Explotación de vulnerabilidades web/Wfuzz, DIRB, DIRSEARCH - Enumeración de subdominios.md",
-    "Ciberseguridad/Hacking Entornos CMS/Hacking en Entornos WORDPRESS.md",
     "Maquina - Validation (HackTheBox).md",
     "Ciberseguridad/Imagenes/Pasted image 20250324182151.png",
     "Ciberseguridad/Imagenes/Pasted image 20250324182104.png",
     "Ciberseguridad/Imagenes/Pasted image 20250324182048.png",
     "Ciberseguridad/Imagenes/Pasted image 20250324181941.png",
     "Ciberseguridad/Imagenes/Pasted image 20250324181853.png",
-    "Ciberseguridad/Otros/Primeros pasos tras la intrusión. (Tratamiento de la TTY).md",
     "Ciberseguridad/Herramientas/Ataque de sincronización..md",
     "Ciberseguridad/Imagenes/Pasted image 20250324181648.png",
     "Ciberseguridad/Imagenes/Pasted image 20250324181549.png",
     "Ciberseguridad/Imagenes/Pasted image 20250324181356.png",
     "Ciberseguridad/Imagenes/Pasted image 20250324181316.png",
     "Ciberseguridad/Imagenes/Pasted image 20250324180943.png",
-    "Ciberseguridad/Maquinas/Maquina - Buscalove.md",
     "Ciberseguridad/Otros/Windows, enum4linux , LinPEAS.md",
     "Ciberseguridad/Herramientas/NIKTO.md",
     "Ciberseguridad/Herramientas/FFUF.md",
@@ -245,7 +247,6 @@
     "Ciberseguridad/Maquinas/Maquina - Vendetta.md",
     "Ciberseguridad/Maquinas/Maquina - Psycho..md",
     "Ciberseguridad/Maquinas/Maquina - Pequeñas mentirosas..md",
-    "Ciberseguridad/Maquinas/Maquina - Nodeclimb.md",
     "Ciberseguridad/Imagenes/Pasted image 20241213190337.png.~tmp",
     "Ciberseguridad/Imagenes/Pasted image 20241212203537.png.~tmp",
     "Ciberseguridad/Imagenes/Pasted image 20241214181500.png.~tmp",
