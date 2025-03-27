@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ciberseguridad/Hacking Entornos CMS/Hacking en Entornos WORDPRESS.md",
+                "file": "Ciberseguridad/Escalada de privilegios + Post explotación/SUID - Escalada de privilegios en Linux..md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Hacking en Entornos WORDPRESS"
+              "title": "SUID - Escalada de privilegios en Linux."
             }
           }
         ],
@@ -82,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "wpscan",
+                "query": "SUID",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -211,11 +211,21 @@
   },
   "active": "1f391c8da66c31a8",
   "lastOpenFiles": [
-    "Ciberseguridad/Imagenes/Pasted image 20250327192220.png",
+    "Ciberseguridad/Otros/Primeros pasos tras la intrusión. (Tratamiento de la TTY).md",
+    "Ciberseguridad/Maquinas/Maquina - Verdejo.md",
+    "Ciberseguridad/Hacking Entornos CMS/Hacking en Entornos WORDPRESS.md",
+    "Ciberseguridad/Imagenes/Pasted image 20250327192801.png",
+    "Ciberseguridad/Imagenes/Pasted image 20250327192757 2.png",
+    "Ciberseguridad/Imagenes/Pasted image 20250327192757 1.png",
+    "Ciberseguridad/Imagenes/Pasted image 20250327192757.png",
+    "Ciberseguridad/Imagenes/Pasted image 20250327192756 4.png",
+    "Ciberseguridad/Imagenes/Pasted image 20250327192756 3.png",
+    "Ciberseguridad/Imagenes/Pasted image 20250327192756 2.png",
+    "Ciberseguridad/Imagenes/Pasted image 20250327192756 1.png",
+    "Ciberseguridad/Imagenes/Pasted image 20250327192756.png",
+    "Ciberseguridad/Imagenes/Pasted image 20250327192755 4.png",
     "Ciberseguridad/Maquinas/Maquina - Buscalove.md",
     "Ciberseguridad/Explotación de vulnerabilidades y ataques de fuerza bruta/Hydra , John The Ripper.md",
-    "Ciberseguridad/Hacking Entornos CMS/Hacking en Entornos WORDPRESS.md",
-    "Ciberseguridad/Otros/Primeros pasos tras la intrusión. (Tratamiento de la TTY).md",
     "Ciberseguridad/Maquinas/Maquina - Mirame..md",
     "Ciberseguridad/Maquinas/Maquina - Library.md",
     "Ciberseguridad/Maquinas/Maquina - Legacy.md",
@@ -226,17 +236,7 @@
     "Ciberseguridad/Explotación de vulnerabilidades web/Wireshark - Interceptar credenciales de protocolos vulnerables..md",
     "Ciberseguridad/Explotación de vulnerabilidades web/Wfuzz, DIRB, DIRSEARCH - Enumeración de subdominios.md",
     "Maquina - Validation (HackTheBox).md",
-    "Ciberseguridad/Imagenes/Pasted image 20250324182151.png",
-    "Ciberseguridad/Imagenes/Pasted image 20250324182104.png",
-    "Ciberseguridad/Imagenes/Pasted image 20250324182048.png",
-    "Ciberseguridad/Imagenes/Pasted image 20250324181941.png",
-    "Ciberseguridad/Imagenes/Pasted image 20250324181853.png",
     "Ciberseguridad/Herramientas/Ataque de sincronización..md",
-    "Ciberseguridad/Imagenes/Pasted image 20250324181648.png",
-    "Ciberseguridad/Imagenes/Pasted image 20250324181549.png",
-    "Ciberseguridad/Imagenes/Pasted image 20250324181356.png",
-    "Ciberseguridad/Imagenes/Pasted image 20250324181316.png",
-    "Ciberseguridad/Imagenes/Pasted image 20250324180943.png",
     "Ciberseguridad/Otros/Windows, enum4linux , LinPEAS.md",
     "Ciberseguridad/Herramientas/NIKTO.md",
     "Ciberseguridad/Herramientas/FFUF.md",
@@ -245,7 +245,6 @@
     "Ciberseguridad/Maquinas/MR. Robot - Hacking wordpress + Escalada de privilegios..md",
     "Ciberseguridad/Maquinas/Maquina - Whereismywebshell.md",
     "Ciberseguridad/Maquinas/Maquina - Walkingcms..md",
-    "Ciberseguridad/Maquinas/Maquina - Verdejo.md",
     "Ciberseguridad/Maquinas/Maquina - Vendetta.md",
     "Ciberseguridad/Imagenes/Pasted image 20241213190337.png.~tmp",
     "Ciberseguridad/Imagenes/Pasted image 20241212203537.png.~tmp",

