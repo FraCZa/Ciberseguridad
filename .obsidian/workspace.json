@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ciberseguridad/Hacking Entornos CMS/Hacking en Entornos WORDPRESS.md",
+                "file": "Ciberseguridad/Explotación de vulnerabilidades y ataques de fuerza bruta/Hydra , John The Ripper.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Hacking en Entornos WORDPRESS"
+              "title": "Hydra , John The Ripper"
             }
           },
           {
@@ -82,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "wpsca",
+                "query": "hydra",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -211,9 +211,9 @@
   },
   "active": "ff44487d8ec243a0",
   "lastOpenFiles": [
+    "Ciberseguridad/Hacking Entornos CMS/Hacking en Entornos WORDPRESS.md",
     "Ciberseguridad/Otros/Primeros pasos tras la intrusión. (Tratamiento de la TTY).md",
     "Ciberseguridad/Maquinas/Maquina - Buscalove.md",
-    "Ciberseguridad/Hacking Entornos CMS/Hacking en Entornos WORDPRESS.md",
     "Ciberseguridad/Maquinas/Maquina - Mirame..md",
     "Ciberseguridad/Maquinas/Maquina - Library.md",
     "Ciberseguridad/Maquinas/Maquina - Legacy.md",
