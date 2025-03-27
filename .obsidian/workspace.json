@@ -41,16 +41,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ciberseguridad/Maquinas/Maquina - Buscalove.md",
+                "file": "Ciberseguridad/Hacking Entornos CMS/Hacking en Entornos WORDPRESS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Maquina - Buscalove"
+              "title": "Hacking en Entornos WORDPRESS"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -82,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "hydra",
+                "query": "wpscan",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -209,11 +209,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ff44487d8ec243a0",
+  "active": "1f391c8da66c31a8",
   "lastOpenFiles": [
+    "Ciberseguridad/Imagenes/Pasted image 20250327192220.png",
+    "Ciberseguridad/Maquinas/Maquina - Buscalove.md",
+    "Ciberseguridad/Explotación de vulnerabilidades y ataques de fuerza bruta/Hydra , John The Ripper.md",
     "Ciberseguridad/Hacking Entornos CMS/Hacking en Entornos WORDPRESS.md",
     "Ciberseguridad/Otros/Primeros pasos tras la intrusión. (Tratamiento de la TTY).md",
-    "Ciberseguridad/Maquinas/Maquina - Buscalove.md",
     "Ciberseguridad/Maquinas/Maquina - Mirame..md",
     "Ciberseguridad/Maquinas/Maquina - Library.md",
     "Ciberseguridad/Maquinas/Maquina - Legacy.md",
@@ -245,8 +247,6 @@
     "Ciberseguridad/Maquinas/Maquina - Walkingcms..md",
     "Ciberseguridad/Maquinas/Maquina - Verdejo.md",
     "Ciberseguridad/Maquinas/Maquina - Vendetta.md",
-    "Ciberseguridad/Maquinas/Maquina - Psycho..md",
-    "Ciberseguridad/Maquinas/Maquina - Pequeñas mentirosas..md",
     "Ciberseguridad/Imagenes/Pasted image 20241213190337.png.~tmp",
     "Ciberseguridad/Imagenes/Pasted image 20241212203537.png.~tmp",
     "Ciberseguridad/Imagenes/Pasted image 20241214181500.png.~tmp",
