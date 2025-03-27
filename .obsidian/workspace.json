@@ -82,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "wire",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -209,7 +209,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1f391c8da66c31a8",
+  "active": "a9b26a1148524caa",
   "lastOpenFiles": [
     "Ciberseguridad/Explotación de vulnerabilidades web/Wfuzz, DIRB, DIRSEARCH - Enumeración de subdominios.md",
     "Ciberseguridad/Hacking Entornos CMS/Hacking en Entornos WORDPRESS.md",
