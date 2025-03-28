@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ciberseguridad/Maquinas/Year of the Rabbit..md",
+                "file": "Maquina - Domain.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Year of the Rabbit."
+              "title": "Maquina - Domain"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ciberseguridad/Explotación de vulnerabilidades y ataques de fuerza bruta/Hydra , John The Ripper.md",
+                "file": "Ciberseguridad/Hacking Entornos CMS/DRUPAL - HACKING.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Hydra , John The Ripper"
+              "title": "DRUPAL - HACKING"
             }
           },
           {
@@ -48,23 +48,9 @@
               "icon": "lucide-file",
               "title": "Skynet - SMBclient"
             }
-          },
-          {
-            "id": "1ece201858b43adc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maquina - Domain.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Maquina - Domain"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -96,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "445",
+                "query": "drupal",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -117,7 +103,8 @@
               "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -222,31 +209,32 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1ece201858b43adc",
+  "active": "ff44487d8ec243a0",
   "lastOpenFiles": [
+    "Ciberseguridad/Explotación básica de protocolos en windows/Protocolo SMB, Metasploit - Puerto 445.md",
+    "Ciberseguridad/Pivoting con metasploit/Pivoting en Linux.md",
+    "Ciberseguridad/Explotación de vulnerabilidades y ataques de fuerza bruta/Hydra , John The Ripper.md",
+    "Maquina - Domain.md",
+    "Ciberseguridad/Imagenes/Pasted image 20250328181425.png",
+    "Ciberseguridad/Maquinas/Year of the Rabbit..md",
+    "Ciberseguridad/Maquinas/Skynet - SMBclient.md",
+    "Ciberseguridad/Imagenes/Pasted image 20250328181315.png",
+    "Ciberseguridad/Imagenes/Pasted image 20250328181301.png",
     "Ciberseguridad/Imagenes/Pasted image 20250328181242.png",
     "Ciberseguridad/Imagenes2/Pasted image 20250328180746.png",
-    "Maquina - Domain.md",
     "Ciberseguridad/Imagenes/Pasted image 20250328181205.png",
     "Ciberseguridad/Imagenes2/Pasted image 20250328181137.png",
     "Ciberseguridad/Imagenes2/Pasted image 20250328180846.png",
     "Ciberseguridad/Imagenes2/Pasted image 20250328180432 2.png",
     "Ciberseguridad/Imagenes2/Pasted image 20250328180432 1.png",
-    "Ciberseguridad/Imagenes2/Pasted image 20250328180432.png",
-    "Ciberseguridad/Imagenes2/Pasted image 20250328180431 3.png",
-    "Ciberseguridad/Imagenes2/Pasted image 20250328180431 2.png",
-    "Ciberseguridad/Imagenes2/Pasted image 20250328180431 1.png",
     "Ciberseguridad/Imagenes2",
     "Ciberseguridad/Maquinas/Maquina - Whereismywebshell.md",
-    "Ciberseguridad/Maquinas/Skynet - SMBclient.md",
     "Ciberseguridad/Explotación básica de protocolos en windows/RPCCLIENT - Enumeración de usuarios SAMBA.md",
-    "Ciberseguridad/Explotación básica de protocolos en windows/Protocolo SMB, Metasploit - Puerto 445.md",
     "Ciberseguridad/Hacking Entornos CMS/Hacking en Entornos WORDPRESS.md",
     "Ciberseguridad/Escalada de privilegios + Post explotación/SUID - Escalada de privilegios en Linux..md",
     "Ciberseguridad/Otros/Primeros pasos tras la intrusión. (Tratamiento de la TTY).md",
     "Ciberseguridad/Maquinas/Maquina - Verdejo.md",
     "Ciberseguridad/Maquinas/Maquina - Buscalove.md",
-    "Ciberseguridad/Explotación de vulnerabilidades y ataques de fuerza bruta/Hydra , John The Ripper.md",
     "Ciberseguridad/Maquinas/Maquina - Mirame..md",
     "Ciberseguridad/Maquinas/Maquina - Library.md",
     "Ciberseguridad/Maquinas/Maquina - Legacy.md",
@@ -260,7 +248,6 @@
     "Ciberseguridad/Herramientas/Ataque de sincronización..md",
     "Ciberseguridad/Otros/Windows, enum4linux , LinPEAS.md",
     "Ciberseguridad/Herramientas/NIKTO.md",
-    "Ciberseguridad/Herramientas/FFUF.md",
     "Ciberseguridad/Imagenes/Pasted image 20241213190337.png.~tmp",
     "Ciberseguridad/Imagenes/Pasted image 20241212203537.png.~tmp",
     "Ciberseguridad/Imagenes/Pasted image 20241214181500.png.~tmp",
