@@ -21,3 +21,4 @@ Port:80, 445, 139
 ```
 rpcclient -U '' -N (IP_VICTIMA)
 ```
+
