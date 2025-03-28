@@ -17,4 +17,7 @@ Port:80, 445, 139
 
 ![](Ciberseguridad/Imagenes2/Pasted%20image%2020250328180208.png)
 
-- Vamos a usar la herram
+- Vamos a usar la herramienta rpcclient :
+```
+rpcclient -U '' -N (IP_VICTIMA)
+```
