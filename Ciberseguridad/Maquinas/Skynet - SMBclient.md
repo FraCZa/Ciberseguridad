@@ -1,6 +1,6 @@
 - Empezamos enumerando los puertos con ==nmap==, teniendo los puertos 139, 80, 445, 143, 110 y 22, siendo el 445 de importancia ya que es un puerto donde se ejecuta ==samba==.
 - Ahora usamos ==gobuster== para encontrar algún directorio.
-- Podemos ver que se ejecuta ambien ==smbd== así que vamos a usar ==smbclient==
+- Podemos ver que se ejecuta tambien ==smbd== así que vamos a usar ==smbclient==
 ```
 smbclient -L (IP_VICTIMA)
 ```
